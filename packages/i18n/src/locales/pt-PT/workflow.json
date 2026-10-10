@@ -1,0 +1,100 @@
+{
+  "workflows": {
+    "workflow_states": {
+      "work_item_creation": "Permitir novos itens de trabalho",
+      "work_item_creation_disable_tooltip": "A criação de itens de trabalho está desativada para este estado",
+      "default_state": "O estado predefinido permite que todos os membros criem novos itens de trabalho. Isto não pode ser alterado",
+      "state_change_count": "{count, plural, one {1 mudança de estado permitida} many {{count} mudanças de estado permitidas} other {{count} mudanças de estado permitidas}}",
+      "movers_count": "{count, plural, one {1 revisor listado} many {{count} revisores listados} other {{count} revisores listados}}",
+      "state_changes": {
+        "label": {
+          "default": "Adicionar mudança de estado permitida",
+          "loading": "A adicionar mudança de estado permitida"
+        },
+        "move_to": "Mudar estado para",
+        "movers": {
+          "label": "Quando revisto por",
+          "tooltip": "Os revisores são as pessoas com permissão para mover itens de trabalho de um estado para outro.",
+          "add": "Adicionar revisores"
+        }
+      }
+    },
+    "workflow_disabled": {
+      "title": "Não pode mover este item de trabalho para aqui."
+    },
+    "workflow_enabled": {
+      "label": "Mudança de estado"
+    },
+    "workflow_tree": {
+      "label": "Para itens de trabalho em",
+      "state_change_label": "pode movê-lo para"
+    },
+    "empty_state": {
+      "upgrade": {
+        "title": "Controle o caos das mudanças e revisões com os fluxos de trabalho.",
+        "description": "Defina regras sobre para onde o seu trabalho avança, por quem e quando, com os fluxos de trabalho no Plane."
+      }
+    },
+    "quick_actions": {
+      "view_change_history": "Ver histórico de alterações",
+      "reset_workflow": "Repor fluxo de trabalho"
+    },
+    "confirmation_modals": {
+      "reset_workflow": {
+        "title": "Tem a certeza de que pretende repor este fluxo de trabalho?",
+        "description": "Se repuser este fluxo de trabalho, todas as suas regras de mudança de estado serão eliminadas e terá de as criar novamente para as aplicar neste projeto."
+      },
+      "delete_state_change": {
+        "title": "Tem a certeza de que pretende eliminar esta regra de mudança de estado?",
+        "description": "Depois de eliminada, não pode anular esta alteração e terá de definir a regra novamente se quiser que se aplique a este projeto."
+      }
+    },
+    "toasts": {
+      "enable_disable": {
+        "loading": "{action} fluxo de trabalho",
+        "success": {
+          "title": "Sucesso",
+          "message": "Fluxo de trabalho {action} com sucesso"
+        },
+        "error": {
+          "title": "Erro",
+          "message": "O fluxo de trabalho não pôde ser {action}. Tente novamente."
+        }
+      },
+      "reset": {
+        "success": {
+          "title": "Sucesso",
+          "message": "Fluxo de trabalho reposto com sucesso"
+        },
+        "error": {
+          "title": "Erro ao repor o fluxo de trabalho",
+          "message": "Não foi possível repor o fluxo de trabalho. Tente novamente."
+        }
+      },
+      "add_state_change_rule": {
+        "error": {
+          "title": "Erro ao adicionar a regra de mudança de estado",
+          "message": "Não foi possível adicionar a regra de mudança de estado. Tente novamente."
+        }
+      },
+      "modify_state_change_rule": {
+        "error": {
+          "title": "Erro ao modificar a regra de mudança de estado",
+          "message": "Não foi possível modificar a regra de mudança de estado. Tente novamente."
+        }
+      },
+      "remove_state_change_rule": {
+        "error": {
+          "title": "Erro ao remover a regra de mudança de estado",
+          "message": "Não foi possível remover a regra de mudança de estado. Tente novamente."
+        }
+      },
+      "modify_state_change_rule_movers": {
+        "error": {
+          "title": "Erro ao modificar os revisores da regra de mudança de estado",
+          "message": "Não foi possível modificar os revisores da regra de mudança de estado. Tente novamente."
+        }
+      }
+    }
+  }
+}

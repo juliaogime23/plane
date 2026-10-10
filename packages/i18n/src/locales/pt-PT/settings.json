@@ -1,0 +1,156 @@
+{
+  "account_settings": {
+    "profile": {
+      "change_email_modal": {
+        "title": "Alterar e-mail",
+        "description": "Introduza um novo endereço de e-mail para receber uma ligação de verificação.",
+        "toasts": {
+          "success_title": "Sucesso!",
+          "success_message": "E-mail atualizado com sucesso. Inicie sessão novamente."
+        },
+        "form": {
+          "email": {
+            "label": "Novo e-mail",
+            "placeholder": "Introduza o seu e-mail",
+            "errors": {
+              "required": "O e-mail é obrigatório",
+              "invalid": "O e-mail é inválido",
+              "exists": "O e-mail já existe. Utilize outro.",
+              "validation_failed": "Falha na validação do e-mail. Tente novamente."
+            }
+          },
+          "code": {
+            "label": "Código único",
+            "placeholder": "123456",
+            "helper_text": "Código de verificação enviado para o seu novo e-mail.",
+            "errors": {
+              "required": "O código único é obrigatório",
+              "invalid": "Código de verificação inválido. Tente novamente."
+            }
+          }
+        },
+        "actions": {
+          "continue": "Continuar",
+          "confirm": "Confirmar",
+          "cancel": "Cancelar"
+        },
+        "states": {
+          "sending": "A enviar"
+        }
+      }
+    },
+    "preferences": {
+      "heading": "Preferências",
+      "description": "Personalize a sua experiência na aplicação de acordo com a sua forma de trabalhar"
+    },
+    "notifications": {
+      "heading": "Notificações por e-mail",
+      "description": "Mantenha-se informado sobre os itens de trabalho que subscreveu. Ative esta opção para receber notificações.",
+      "select_default_view": "Selecionar vista predefinida",
+      "compact": "Compacta",
+      "full": "Ecrã inteiro"
+    },
+    "security": {
+      "heading": "Segurança"
+    },
+    "api_tokens": {
+      "title": "Tokens de acesso pessoal",
+      "description": "Gere tokens de API seguros para integrar os seus dados com sistemas e aplicações externos."
+    },
+    "activity": {
+      "heading": "Atividade",
+      "description": "Acompanhe as suas ações e alterações recentes em todos os projetos e itens de trabalho."
+    },
+    "connections": {
+      "title": "Ligações",
+      "heading": "Ligações",
+      "description": "Faça a gestão das definições de ligações do seu espaço de trabalho."
+    }
+  },
+  "profile": {
+    "label": "Perfil",
+    "page_label": "O seu trabalho",
+    "work": "Trabalho",
+    "details": {
+      "joined_on": "Aderiu em",
+      "time_zone": "Fuso horário"
+    },
+    "stats": {
+      "workload": "Carga de trabalho",
+      "overview": "Visão geral",
+      "created": "Itens de trabalho criados",
+      "assigned": "Itens de trabalho atribuídos",
+      "subscribed": "Itens de trabalho subscritos",
+      "state_distribution": {
+        "title": "Itens de trabalho por estado",
+        "empty": "Crie itens de trabalho para os ver por estado no gráfico e obter uma melhor análise."
+      },
+      "priority_distribution": {
+        "title": "Itens de trabalho por prioridade",
+        "empty": "Crie itens de trabalho para os ver por prioridade no gráfico e obter uma melhor análise."
+      },
+      "recent_activity": {
+        "title": "Atividade recente",
+        "empty": "Não foi possível encontrar dados. Verifique os valores introduzidos",
+        "button": "Transferir a atividade de hoje",
+        "button_loading": "A transferir"
+      }
+    },
+    "actions": {
+      "profile": "Perfil",
+      "security": "Segurança",
+      "activity": "Atividade",
+      "preferences": "Preferências",
+      "notifications": "Notificações",
+      "api-tokens": "Tokens de acesso pessoal",
+      "connections": "Ligações"
+    },
+    "tabs": {
+      "summary": "Resumo",
+      "assigned": "Atribuídos",
+      "created": "Criados",
+      "subscribed": "Subscritos",
+      "activity": "Atividade"
+    },
+    "empty_state": {
+      "activity": {
+        "title": "Ainda não há atividade",
+        "description": "Comece por criar um novo item de trabalho! Adicione-lhe detalhes e propriedades. Explore mais o Plane para ver a sua atividade."
+      },
+      "assigned": {
+        "title": "Não tem itens de trabalho atribuídos",
+        "description": "Pode acompanhar aqui os itens de trabalho que lhe foram atribuídos."
+      },
+      "created": {
+        "title": "Ainda não há itens de trabalho",
+        "description": "Todos os itens de trabalho que criar aparecem aqui; acompanhe-os diretamente aqui."
+      },
+      "subscribed": {
+        "title": "Ainda não há itens de trabalho",
+        "description": "Subscreva os itens de trabalho que lhe interessam e acompanhe-os todos aqui."
+      }
+    }
+  },
+  "themes": {
+    "theme_options": {
+      "system_preference": {
+        "label": "Preferência do sistema"
+      },
+      "light": {
+        "label": "Claro"
+      },
+      "dark": {
+        "label": "Escuro"
+      },
+      "light_contrast": {
+        "label": "Claro de alto contraste"
+      },
+      "dark_contrast": {
+        "label": "Escuro de alto contraste"
+      },
+      "custom": {
+        "label": "Tema personalizado"
+      }
+    }
+  }
+}

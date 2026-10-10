@@ -1,0 +1,273 @@
+{
+  "automations": {
+    "settings": {
+      "title": "Automatizações personalizadas",
+      "create_automation": "Criar automatização"
+    },
+    "scope": {
+      "label": "Âmbito",
+      "run_on": "Executar em"
+    },
+    "trigger": {
+      "label": "Acionador",
+      "add_trigger": "Adicionar acionador",
+      "sidebar_header": "Configuração do acionador",
+      "input_label": "Qual é o acionador desta automatização?",
+      "input_placeholder": "Selecione uma opção",
+      "section_plane_events": "Eventos do Plane",
+      "section_time_based": "Baseado no tempo",
+      "fixed_schedule": "Agendamento fixo",
+      "schedule": {
+        "frequency": "Frequência",
+        "select_day": "Selecionar dia",
+        "day_of_month": "Dia do mês",
+        "monthly_every": "Todos os meses",
+        "monthly_day_aria": "Dia {day}",
+        "time": "Hora",
+        "hour": "Hora",
+        "minute": "Minuto",
+        "hour_suffix": "h",
+        "minute_suffix": "min",
+        "am": "AM",
+        "pm": "PM",
+        "timezone": "Fuso horário",
+        "timezone_placeholder": "Selecionar um fuso horário",
+        "frequency_daily": "Diária",
+        "frequency_weekly": "Semanal",
+        "frequency_monthly": "Mensal",
+        "on": "Em",
+        "validation_weekly_day_required": "Selecione pelo menos um dia da semana.",
+        "validation_monthly_date_required": "Selecione um dia do mês.",
+        "main_content_schedule_summary_daily": "Todos os dias às {time} ({timezone}).",
+        "main_content_schedule_summary_weekly": "Todas as semanas, à(s) {days}, às {time} ({timezone}).",
+        "main_content_schedule_summary_monthly": "Todos os meses, no dia {day}, às {time} ({timezone}).",
+        "schedule_mode": "Modo de agendamento",
+        "schedule_mode_fixed": "Fixo",
+        "schedule_mode_cron": "Cron",
+        "cron_expression_label": "Introduza a expressão Cron",
+        "cron_expression_placeholder": "0 9 * * 1-5",
+        "cron_invalid": "Expressão cron inválida.",
+        "cron_preview": "Esta expressão Cron corresponde a \"{description}\".",
+        "main_content_cron_summary": "{description} ({timezone})."
+      },
+      "button": {
+        "previous": "Voltar",
+        "next": "Adicionar ação"
+      },
+      "warning": {
+        "disabled_trigger_switching": "Não é possível alterar o tipo de acionador depois de criado"
+      }
+    },
+    "condition": {
+      "label": "Condição",
+      "add_condition": "Adicionar condição",
+      "adding_condition": "A adicionar condição"
+    },
+    "action": {
+      "label": "Ação",
+      "add_action": "Adicionar ação",
+      "sidebar_header": "Ações",
+      "input_label": "O que faz a automatização?",
+      "input_placeholder": "Selecione uma opção",
+      "handler_name": {
+        "add_comment": "Adicionar comentário",
+        "change_property": "Alterar propriedade",
+        "run_script": "Executar script"
+      },
+      "configuration": {
+        "label": "Configuração",
+        "change_property": {
+          "placeholders": {
+            "property_name": "Selecione uma propriedade",
+            "change_type": "Selecionar",
+            "property_value_select": "{count, plural, one{Selecionar valor} many{Selecionar valores} other{Selecionar valores}}",
+            "property_value_select_date": "Selecionar data"
+          },
+          "validation": {
+            "property_name_required": "O nome da propriedade é obrigatório",
+            "change_type_required": "O tipo de alteração é obrigatório",
+            "property_value_required": "O valor da propriedade é obrigatório"
+          }
+        }
+      },
+      "comment_block": {
+        "title": "Adicionar comentário"
+      },
+      "run_script_block": {
+        "title": "Executar script"
+      },
+      "change_property_block": {
+        "title": "Alterar propriedade"
+      },
+      "validation": {
+        "delete_only_action": "Desative a automatização antes de eliminar a sua única ação."
+      }
+    },
+    "conjunctions": {
+      "and": "E",
+      "or": "Ou",
+      "if": "Se",
+      "then": "Então"
+    },
+    "enable": {
+      "alert": "Clique em 'Ativar' quando a sua automatização estiver concluída. Depois de ativada, a automatização ficará pronta a ser executada.",
+      "validation": {
+        "required": "A automatização tem de ter um acionador e pelo menos uma ação para poder ser ativada."
+      }
+    },
+    "delete": {
+      "validation": {
+        "enabled": "A automatização tem de ser desativada antes de ser eliminada."
+      }
+    },
+    "table": {
+      "title": "Título da automatização",
+      "scope": "Âmbito",
+      "projects": "Projetos",
+      "last_run_on": "Última execução em",
+      "created_on": "Criada em",
+      "last_updated_on": "Última atualização em",
+      "last_run_status": "Estado da última execução",
+      "average_duration": "Duração média",
+      "owner": "Proprietário",
+      "executions": "Execuções"
+    },
+    "create_modal": {
+      "heading": {
+        "create": "Criar automatização",
+        "update": "Atualizar automatização"
+      },
+      "title": {
+        "placeholder": "Dê um nome à sua automatização.",
+        "required_error": "O título é obrigatório"
+      },
+      "description": {
+        "placeholder": "Descreva a sua automatização."
+      },
+      "submit_button": {
+        "create": "Criar automatização",
+        "update": "Atualizar automatização"
+      }
+    },
+    "delete_modal": {
+      "heading": "Eliminar automatização"
+    },
+    "activity": {
+      "filters": {
+        "show_fails": "Mostrar falhas",
+        "all": "Todos",
+        "only_activity": "Apenas atividade",
+        "only_run_history": "Apenas histórico de execuções"
+      },
+      "run_history": {
+        "initiator": "Iniciador"
+      }
+    },
+    "toasts": {
+      "create": {
+        "success": {
+          "title": "Sucesso!",
+          "message": "Automatização criada com sucesso."
+        },
+        "error": {
+          "title": "Erro!",
+          "message": "Falha na criação da automatização."
+        }
+      },
+      "update": {
+        "success": {
+          "title": "Sucesso!",
+          "message": "Automatização atualizada com sucesso."
+        },
+        "error": {
+          "title": "Erro!",
+          "message": "Falha na atualização da automatização."
+        }
+      },
+      "enable": {
+        "success": {
+          "title": "Sucesso!",
+          "message": "Automatização ativada com sucesso."
+        },
+        "error": {
+          "title": "Erro!",
+          "message": "Falha ao ativar a automatização."
+        }
+      },
+      "disable": {
+        "success": {
+          "title": "Sucesso!",
+          "message": "Automatização desativada com sucesso."
+        },
+        "error": {
+          "title": "Erro!",
+          "message": "Falha ao desativar a automatização."
+        }
+      },
+      "delete": {
+        "success": {
+          "title": "Automatização eliminada",
+          "message": "A automatização {name} foi eliminada do seu projeto."
+        },
+        "error": {
+          "title": "Desta vez, não foi possível eliminar essa automatização.",
+          "message": "Tente eliminá-la novamente ou volte mais tarde. Se mesmo assim não conseguir eliminá-la, contacte-nos."
+        }
+      },
+      "action": {
+        "create": {
+          "error": {
+            "title": "Erro!",
+            "message": "Falha ao criar a ação. Tente novamente!"
+          }
+        },
+        "update": {
+          "error": {
+            "title": "Erro!",
+            "message": "Falha ao atualizar a ação. Tente novamente!"
+          }
+        }
+      }
+    },
+    "empty_state": {
+      "no_automations": {
+        "title": "Ainda não há automatizações para mostrar.",
+        "description": "As automatizações ajudam-no a eliminar tarefas repetitivas através da definição de acionadores, condições e ações. Crie uma para poupar tempo e manter o trabalho a avançar sem esforço."
+      },
+      "upgrade": {
+        "title": "Automatizações",
+        "description": "As automatizações são uma forma de automatizar tarefas no seu projeto.",
+        "sub_description": "Recupere 80% do seu tempo administrativo ao utilizar Automatizações."
+      }
+    },
+    "global_automations": {
+      "project_select": {
+        "label": "Selecione os projetos em que esta automatização será executada",
+        "all_projects": {
+          "label": "Todos os projetos",
+          "description": "A automatização será executada em todos os projetos do espaço de trabalho."
+        },
+        "select_projects": {
+          "label": "Selecionar projetos",
+          "description": "A automatização será executada nos projetos selecionados do espaço de trabalho.",
+          "placeholder": "Selecionar projetos"
+        }
+      },
+      "settings": {
+        "sidebar_label": "Automatizações",
+        "title": "Automatizações",
+        "description": "Uniformize processos em todo o seu espaço de trabalho com automatizações globais."
+      },
+      "table": {
+        "scope": {
+          "global": "Global",
+          "project": {
+            "label": "Projeto",
+            "multiple": "Vários",
+            "all": "Todos"
+          }
+        }
+      }
+    }
+  }
+}

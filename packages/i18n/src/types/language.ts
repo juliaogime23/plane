@@ -20,6 +20,7 @@ export type TLanguage =
   | "pl"
   | "ko"
   | "pt-BR"
+  | "pt-PT"
   | "id"
   | "ro"
   | "vi-VN"

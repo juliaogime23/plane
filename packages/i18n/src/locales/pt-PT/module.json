@@ -1,0 +1,7 @@
+{
+  "module": {
+    "label": "{count, plural, one {Módulo} many {Módulos} other {Módulos}}",
+    "no_module": "Nenhum módulo",
+    "select": "Adicionar módulos"
+  }
+}

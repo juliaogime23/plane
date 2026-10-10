@@ -1,0 +1,58 @@
+{
+  "notification": {
+    "label": "Caixa de entrada",
+    "page_label": "{workspace} - Caixa de entrada",
+    "options": {
+      "mark_all_as_read": "Marcar tudo como lido",
+      "mark_read": "Marcar como lida",
+      "mark_unread": "Marcar como não lida",
+      "refresh": "Atualizar",
+      "filters": "Filtros da caixa de entrada",
+      "show_unread": "Mostrar não lidas",
+      "show_snoozed": "Mostrar adiadas",
+      "show_archived": "Mostrar arquivadas",
+      "mark_archive": "Arquivar",
+      "mark_unarchive": "Desarquivar",
+      "mark_snooze": "Adiar",
+      "mark_unsnooze": "Reativar"
+    },
+    "toasts": {
+      "read": "Notificação marcada como lida",
+      "unread": "Notificação marcada como não lida",
+      "archived": "Notificação arquivada",
+      "unarchived": "Notificação desarquivada",
+      "snoozed": "Notificação adiada",
+      "unsnoozed": "Notificação reativada"
+    },
+    "empty_state": {
+      "detail": {
+        "title": "Selecione para ver os detalhes."
+      },
+      "all": {
+        "title": "Nenhum item de trabalho atribuído",
+        "description": "As atualizações dos itens de trabalho que lhe foram atribuídos podem ser\n vistas aqui"
+      },
+      "mentions": {
+        "title": "Nenhum item de trabalho atribuído",
+        "description": "As atualizações dos itens de trabalho que lhe foram atribuídos podem ser\n vistas aqui"
+      }
+    },
+    "tabs": {
+      "all": "Todas",
+      "mentions": "Menções"
+    },
+    "filter": {
+      "assigned": "Atribuídos a mim",
+      "created": "Criados por mim",
+      "subscribed": "Subscritos por mim"
+    },
+    "snooze": {
+      "1_day": "1 dia",
+      "3_days": "3 dias",
+      "5_days": "5 dias",
+      "1_week": "1 semana",
+      "2_weeks": "2 semanas",
+      "custom": "Personalizado"
+    }
+  }
+}

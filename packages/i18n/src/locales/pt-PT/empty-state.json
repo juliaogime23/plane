@@ -1,0 +1,270 @@
+{
+  "common_empty_state": {
+    "progress": {
+      "title": "Ainda não há métricas de progresso para mostrar.",
+      "description": "Comece a definir valores de propriedades nos itens de trabalho para ver aqui as métricas de progresso."
+    },
+    "updates": {
+      "title": "Ainda não há atualizações.",
+      "description": "Quando os membros do projeto adicionarem atualizações, estas aparecerão aqui"
+    },
+    "search": {
+      "title": "Nenhum resultado correspondente.",
+      "description": "Nenhum resultado encontrado. Tente ajustar os termos de pesquisa."
+    },
+    "not_found": {
+      "title": "Ups! Parece que algo correu mal",
+      "description": "De momento, não é possível obter a sua conta Plane. Pode tratar-se de um erro de rede.",
+      "cta_primary": "Tentar recarregar"
+    },
+    "server_error": {
+      "title": "Erro do servidor",
+      "description": "Não é possível ligar ao nosso servidor e obter os dados. Não se preocupe, estamos a tratar do assunto.",
+      "cta_primary": "Tentar recarregar"
+    }
+  },
+  "project_empty_state": {
+    "no_access": {
+      "title": "Parece que não tem acesso a este projeto",
+      "restricted_description": "Contacte o administrador para pedir acesso e poderá continuar aqui.",
+      "join_description": "Clique no botão abaixo para aderir.",
+      "cta_primary": "Aderir ao projeto",
+      "cta_loading": "A aderir ao projeto"
+    },
+    "invalid_project": {
+      "title": "Projeto não encontrado",
+      "description": "O projeto que procura não existe."
+    },
+    "work_items": {
+      "title": "Comece com o seu primeiro item de trabalho.",
+      "description": "Os itens de trabalho são os blocos de construção do seu projeto — atribua responsáveis, defina prioridades e acompanhe o progresso facilmente.",
+      "cta_primary": "Criar o seu primeiro item de trabalho"
+    },
+    "cycles": {
+      "title": "Agrupe e delimite no tempo o seu trabalho em Ciclos.",
+      "description": "Divida o trabalho em blocos com duração definida, parta do prazo do projeto para trás para definir datas e faça progressos tangíveis em equipa.",
+      "cta_primary": "Definir o seu primeiro ciclo"
+    },
+    "cycle_work_items": {
+      "title": "Nenhum item de trabalho para mostrar neste ciclo",
+      "description": "Crie itens de trabalho para começar a monitorizar o progresso da sua equipa neste ciclo e atingir os seus objetivos a tempo.",
+      "cta_primary": "Criar item de trabalho",
+      "cta_secondary": "Adicionar item de trabalho existente"
+    },
+    "modules": {
+      "title": "Associe os objetivos do seu projeto a Módulos e acompanhe-os facilmente.",
+      "description": "Os módulos são compostos por itens de trabalho interligados. Ajudam a monitorizar o progresso ao longo das fases do projeto, cada uma com prazos e análises específicos que indicam quão perto está de concluir essas fases.",
+      "cta_primary": "Definir o seu primeiro módulo"
+    },
+    "module_work_items": {
+      "title": "Nenhum item de trabalho para mostrar neste Módulo",
+      "description": "Crie itens de trabalho para começar a monitorizar este módulo.",
+      "cta_primary": "Criar item de trabalho",
+      "cta_secondary": "Adicionar item de trabalho existente"
+    },
+    "views": {
+      "title": "Guarde vistas personalizadas para o seu projeto",
+      "description": "As vistas são filtros guardados que o ajudam a aceder rapidamente às informações que mais utiliza. Colabore sem esforço enquanto os colegas de equipa partilham e adaptam as vistas às suas necessidades específicas.",
+      "cta_primary": "Criar vista"
+    },
+    "no_work_items_in_project": {
+      "title": "Ainda não há itens de trabalho no projeto",
+      "description": "Adicione itens de trabalho ao seu projeto e divida o seu trabalho em partes acompanháveis com vistas.",
+      "cta_primary": "Adicionar item de trabalho"
+    },
+    "work_item_filter": {
+      "title": "Nenhum item de trabalho encontrado",
+      "description": "O filtro atual não devolveu nenhum resultado. Experimente alterar os filtros.",
+      "cta_primary": "Adicionar item de trabalho"
+    },
+    "pages": {
+      "title": "Documente tudo — de notas a PRDs",
+      "description": "As páginas permitem-lhe recolher e organizar informações num só lugar. Escreva notas de reuniões, documentação de projetos e PRDs, incorpore itens de trabalho e estruture-os com componentes prontos a utilizar.",
+      "cta_primary": "Criar a sua primeira Página"
+    },
+    "archive_pages": {
+      "title": "Ainda não há páginas arquivadas",
+      "description": "Arquive as páginas que não estão no seu radar. Aceda-lhes aqui quando precisar."
+    },
+    "intake_sidebar": {
+      "title": "Registar pedidos de Intake",
+      "description": "Submeta novos pedidos para serem revistos, priorizados e acompanhados no fluxo de trabalho do seu projeto.",
+      "cta_primary": "Criar pedido de Intake"
+    },
+    "intake_main": {
+      "title": "Selecione um item de trabalho do Intake para ver os respetivos detalhes"
+    },
+    "epics": {
+      "title": "Transforme projetos complexos em epics estruturados.",
+      "description": "Um epic ajuda-o a organizar grandes objetivos em tarefas mais pequenas e acompanháveis.",
+      "cta_primary": "Criar um Epic",
+      "cta_secondary": "Documentação"
+    },
+    "epic_work_items": {
+      "title": "Ainda não adicionou itens de trabalho a este epic.",
+      "description": "Comece por adicionar alguns itens de trabalho a este epic e acompanhe-os aqui.",
+      "cta_secondary": "Adicionar itens de trabalho"
+    }
+  },
+  "workspace_empty_state": {
+    "archive_epics": {
+      "title": "Ainda não há epics arquivados",
+      "description": "Pode arquivar epics concluídos ou cancelados. Encontre-os aqui depois de arquivados."
+    },
+    "archive_work_items": {
+      "title": "Ainda não há itens de trabalho arquivados",
+      "description": "Manualmente ou através de automatização, pode arquivar itens de trabalho concluídos ou cancelados. Encontre-os aqui depois de arquivados.",
+      "cta_primary": "Configurar automatização"
+    },
+    "archive_cycles": {
+      "title": "Ainda não há ciclos arquivados",
+      "description": "Para manter o seu projeto organizado, arquive os ciclos concluídos. Encontre-os aqui depois de arquivados."
+    },
+    "archive_modules": {
+      "title": "Ainda não há Módulos arquivados",
+      "description": "Para manter o seu projeto organizado, arquive os módulos concluídos ou cancelados. Encontre-os aqui depois de arquivados."
+    },
+    "home_widget_quick_links": {
+      "title": "Tenha à mão referências, recursos ou documentos importantes para o seu trabalho"
+    },
+    "inbox_sidebar_all": {
+      "title": "As atualizações dos itens de trabalho que subscreveu aparecerão aqui"
+    },
+    "inbox_sidebar_mentions": {
+      "title": "As menções aos seus itens de trabalho aparecerão aqui"
+    },
+    "your_work_by_priority": {
+      "title": "Ainda não há nenhum item de trabalho atribuído"
+    },
+    "your_work_by_state": {
+      "title": "Ainda não há nenhum item de trabalho atribuído"
+    },
+    "views": {
+      "title": "Ainda não há Vistas",
+      "description": "Adicione itens de trabalho ao seu projeto e utilize vistas para filtrar, ordenar e monitorizar o progresso sem esforço.",
+      "cta_primary": "Adicionar item de trabalho"
+    },
+    "drafts": {
+      "title": "Itens de trabalho escritos a meio",
+      "description": "Para experimentar, comece a adicionar um item de trabalho e deixe-o a meio ou crie o seu primeiro rascunho abaixo. 😉",
+      "cta_primary": "Criar rascunho de item de trabalho"
+    },
+    "projects_archived": {
+      "title": "Nenhum projeto arquivado",
+      "description": "Parece que todos os seus projetos ainda estão ativos — excelente trabalho!"
+    },
+    "analytics_projects": {
+      "title": "Crie projetos para ver aqui as métricas dos projetos."
+    },
+    "analytics_work_items": {
+      "title": "Crie projetos com itens de trabalho e responsáveis para começar a acompanhar aqui o desempenho, o progresso e o impacto da equipa."
+    },
+    "analytics_no_cycle": {
+      "title": "Crie ciclos para organizar o trabalho em fases com duração definida e acompanhar o progresso ao longo dos sprints."
+    },
+    "analytics_no_module": {
+      "title": "Crie módulos para organizar o seu trabalho e acompanhar o progresso em diferentes fases."
+    },
+    "analytics_no_intake": {
+      "title": "Configure o Intake para gerir os pedidos recebidos e acompanhar como são aceites e rejeitados"
+    },
+    "home_widget_stickies": {
+      "title": "Aponte uma ideia, registe um momento de inspiração ou guarde um rasgo de génio. Adicione um Sticky para começar."
+    },
+    "stickies": {
+      "title": "Registe ideias instantaneamente",
+      "description": "Crie Stickies para notas rápidas e tarefas pendentes, e tenha-os consigo onde quer que vá.",
+      "cta_primary": "Criar o primeiro Sticky",
+      "cta_secondary": "Documentação"
+    },
+    "active_cycles": {
+      "title": "Nenhum ciclo ativo",
+      "description": "De momento, não tem nenhum ciclo em curso. Os ciclos ativos aparecem aqui quando incluem a data de hoje."
+    },
+    "dashboard": {
+      "title": "Visualize o seu progresso com painéis",
+      "description": "Crie painéis personalizáveis para acompanhar métricas, medir resultados e apresentar insights de forma eficaz.",
+      "cta_primary": "Criar novo painel"
+    },
+    "wiki": {
+      "title": "Escreva uma nota, um documento ou uma base de conhecimento completa.",
+      "description": "As páginas são o espaço para registar ideias no Plane. Tome notas de reuniões, formate-as facilmente, incorpore itens de trabalho, organize-as com uma biblioteca de componentes e mantenha-as todas no contexto do seu projeto.",
+      "cta_primary": "Criar a sua página"
+    },
+    "project_overview_state_sidebar": {
+      "title": "Ativar estados do projeto",
+      "description": "Ative os estados do projeto para ver e gerir propriedades como o estado, a prioridade, as datas limite e mais."
+    }
+  },
+  "settings_empty_state": {
+    "estimates": {
+      "title": "Ainda não há estimativas",
+      "description": "Defina como a sua equipa mede o esforço e acompanhe-o de forma consistente em todos os itens de trabalho.",
+      "cta_primary": "Adicionar sistema de estimativas"
+    },
+    "labels": {
+      "title": "Ainda não há etiquetas",
+      "description": "Crie etiquetas personalizadas para categorizar e gerir eficazmente os seus itens de trabalho.",
+      "cta_primary": "Criar a sua primeira etiqueta"
+    },
+    "exports": {
+      "title": "Ainda não há exportações",
+      "description": "De momento, não tem nenhum registo de exportação. Depois de exportar dados, todos os registos aparecerão aqui."
+    },
+    "tokens": {
+      "title": "Ainda não há token pessoal",
+      "description": "Gere tokens de API seguros para ligar o seu espaço de trabalho a sistemas e aplicações externos.",
+      "cta_primary": "Adicionar token de acesso"
+    },
+    "workspace_tokens": {
+      "title": "Ainda não há tokens de acesso",
+      "description": "Gere tokens de API seguros para ligar o seu espaço de trabalho a sistemas e aplicações externos.",
+      "cta_primary": "Adicionar token de acesso"
+    },
+    "webhooks": {
+      "title": "Ainda não foi adicionado nenhum Webhook",
+      "description": "Automatize notificações para serviços externos quando ocorrerem eventos do projeto.",
+      "cta_primary": "Adicionar webhook"
+    },
+    "work_item_types": {
+      "title": "Crie e personalize tipos de itens de trabalho",
+      "description": "Defina tipos de itens de trabalho exclusivos para o seu projeto. Cada tipo pode ter as suas próprias propriedades, fluxos de trabalho e campos - adaptados às necessidades do seu projeto e da sua equipa.",
+      "cta_primary": "Ativar"
+    },
+    "work_item_type_properties": {
+      "title": "Defina a propriedade e os detalhes que pretende registar para este tipo de item de trabalho. Personalize-o para corresponder ao fluxo de trabalho do seu projeto.",
+      "cta_secondary": "Adicionar propriedade"
+    },
+    "templates": {
+      "title": "Ainda não há modelos",
+      "description": "Reduza o tempo de configuração com a criação de modelos para itens de trabalho e páginas — e comece novo trabalho em segundos.",
+      "cta_primary": "Criar o seu primeiro modelo"
+    },
+    "recurring_work_items": {
+      "title": "Ainda não há nenhum item de trabalho recorrente",
+      "description": "Configure itens de trabalho recorrentes para automatizar tarefas repetitivas e cumprir o calendário sem esforço.",
+      "cta_primary": "Criar item de trabalho recorrente"
+    },
+    "worklogs": {
+      "title": "Acompanhe as folhas de horas de todos os membros",
+      "description": "Registe tempo nos itens de trabalho para ver folhas de horas detalhadas de qualquer membro da equipa em todos os projetos."
+    },
+    "group_syncing": {
+      "title": "Ainda não há mapeamentos de grupos"
+    },
+    "template_setting": {
+      "title": "Ainda não há modelos",
+      "description": "Reduza o tempo de configuração com a criação de modelos para projetos, itens de trabalho e páginas — e comece novo trabalho em segundos.",
+      "cta_primary": "Criar modelo"
+    },
+    "workflows": {
+      "title": "Ainda não há fluxos de trabalho",
+      "description": "Crie fluxos de trabalho para gerir o progresso dos seus itens de trabalho.",
+      "cta_primary": "Adicionar novo fluxo de trabalho",
+      "states": {
+        "title": "Adicionar estados",
+        "description": "Selecione os estados pelos quais o item de trabalho progride."
+      }
+    }
+  }
+}

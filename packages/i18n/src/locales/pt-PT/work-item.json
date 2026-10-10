@@ -1,0 +1,432 @@
+{
+  "issue": {
+    "label": "{count, plural, one {Item de trabalho} many {Itens de trabalho} other {Itens de trabalho}}",
+    "all": "Todos os Itens de trabalho",
+    "edit": "Editar item de trabalho",
+    "title": {
+      "label": "Título do item de trabalho",
+      "required": "O título do item de trabalho é obrigatório."
+    },
+    "add": {
+      "press_enter": "Prima 'Enter' para adicionar outro item de trabalho",
+      "label": "Adicionar item de trabalho",
+      "cycle": {
+        "failed": "Não foi possível adicionar o item de trabalho ao ciclo. Tente novamente.",
+        "success": "{count, plural, one {Item de trabalho adicionado} many {Itens de trabalho adicionados} other {Itens de trabalho adicionados}} ao ciclo com sucesso.",
+        "loading": "A adicionar {count, plural, one {item de trabalho} many {itens de trabalho} other {itens de trabalho}} ao ciclo"
+      },
+      "assignee": "Adicionar responsáveis",
+      "start_date": "Adicionar data de início",
+      "due_date": "Adicionar data limite",
+      "parent": "Adicionar item de trabalho principal",
+      "sub_issue": "Adicionar subitem de trabalho",
+      "dependency": "Adicionar dependência",
+      "relation": "Adicionar relação",
+      "link": "Adicionar ligação",
+      "existing": "Adicionar item de trabalho existente"
+    },
+    "remove": {
+      "label": "Remover item de trabalho",
+      "cycle": {
+        "loading": "A remover o item de trabalho do ciclo",
+        "success": "Item de trabalho removido do ciclo com sucesso.",
+        "failed": "Não foi possível remover o item de trabalho do ciclo. Tente novamente."
+      },
+      "module": {
+        "loading": "A remover o item de trabalho do módulo",
+        "success": "Item de trabalho removido do módulo com sucesso.",
+        "failed": "Não foi possível remover o item de trabalho do módulo. Tente novamente."
+      },
+      "parent": {
+        "label": "Remover item de trabalho principal"
+      }
+    },
+    "new": "Novo item de trabalho",
+    "adding": "A adicionar item de trabalho",
+    "create": {
+      "success": "Item de trabalho criado com sucesso"
+    },
+    "priority": {
+      "urgent": "Urgente",
+      "high": "Alta",
+      "medium": "Média",
+      "low": "Baixa"
+    },
+    "display": {
+      "properties": {
+        "label": "Propriedades de apresentação",
+        "id": "ID",
+        "issue_type": "Tipo de item de trabalho",
+        "sub_issue_count": "Número de subitens de trabalho",
+        "attachment_count": "Número de anexos",
+        "created_on": "Criado em",
+        "sub_issue": "Subitem de trabalho",
+        "work_item_count": "Número de itens de trabalho"
+      },
+      "extra": {
+        "show_sub_issues": "Mostrar subitens de trabalho",
+        "show_empty_groups": "Mostrar grupos vazios"
+      }
+    },
+    "layouts": {
+      "ordered_by_label": "Este esquema está ordenado por",
+      "list": "Lista",
+      "kanban": "Quadro",
+      "calendar": "Calendário",
+      "spreadsheet": "Tabela",
+      "gantt": "Cronograma",
+      "title": {
+        "list": "Esquema de lista",
+        "kanban": "Esquema de quadro",
+        "calendar": "Esquema de calendário",
+        "spreadsheet": "Esquema de tabela",
+        "gantt": "Esquema de cronograma"
+      }
+    },
+    "states": {
+      "active": "Ativo",
+      "backlog": "Backlog"
+    },
+    "comments": {
+      "placeholder": "Adicionar comentário",
+      "switch": {
+        "private": "Mudar para comentário privado",
+        "public": "Mudar para comentário público"
+      },
+      "create": {
+        "success": "Comentário criado com sucesso",
+        "error": "Falha ao criar o comentário. Tente novamente mais tarde."
+      },
+      "update": {
+        "success": "Comentário atualizado com sucesso",
+        "error": "Falha ao atualizar o comentário. Tente novamente mais tarde."
+      },
+      "remove": {
+        "success": "Comentário removido com sucesso",
+        "error": "Falha ao remover o comentário. Tente novamente mais tarde."
+      },
+      "upload": {
+        "error": "Falha ao carregar o recurso. Tente novamente mais tarde."
+      },
+      "copy_link": {
+        "success": "Ligação do comentário copiada para a área de transferência",
+        "error": "Erro ao copiar a ligação do comentário. Tente novamente mais tarde."
+      },
+      "replies": {
+        "create": {
+          "submit_button": "Adicionar resposta",
+          "placeholder": "Adicionar resposta"
+        },
+        "toast": {
+          "fetch": {
+            "error": {
+              "message": "Falha ao obter as respostas"
+            }
+          },
+          "create": {
+            "success": {
+              "message": "Resposta criada com sucesso"
+            },
+            "error": {
+              "message": "Falha ao criar a resposta"
+            }
+          },
+          "update": {
+            "success": {
+              "message": "Resposta atualizada com sucesso"
+            },
+            "error": {
+              "message": "Falha ao atualizar a resposta"
+            }
+          },
+          "delete": {
+            "success": {
+              "message": "Resposta eliminada com sucesso"
+            },
+            "error": {
+              "message": "Falha ao eliminar a resposta"
+            }
+          }
+        }
+      }
+    },
+    "empty_state": {
+      "issue_detail": {
+        "title": "O item de trabalho não existe",
+        "description": "O item de trabalho que procura não existe, foi arquivado ou foi eliminado.",
+        "primary_button": {
+          "text": "Ver outros itens de trabalho"
+        }
+      }
+    },
+    "sibling": {
+      "label": "Itens de trabalho irmãos"
+    },
+    "archive": {
+      "description": "Apenas os itens de trabalho concluídos ou cancelados podem ser arquivados",
+      "label": "Arquivar item de trabalho",
+      "confirm_message": "Tem a certeza de que pretende arquivar o item de trabalho? Todos os seus itens de trabalho arquivados podem ser restaurados mais tarde.",
+      "success": {
+        "label": "Arquivado com sucesso",
+        "message": "Pode encontrar os seus itens arquivados no arquivo do projeto."
+      },
+      "failed": {
+        "message": "Não foi possível arquivar o item de trabalho. Tente novamente."
+      },
+      "banner_message": "Este item de trabalho foi arquivado. Aceda à secção Arquivo para o restaurar.",
+      "go_to_archives": "Ir para o arquivo"
+    },
+    "restore": {
+      "success": {
+        "title": "Restaurado com sucesso",
+        "message": "Pode encontrar o seu item de trabalho nos itens de trabalho do projeto."
+      },
+      "failed": {
+        "message": "Não foi possível restaurar o item de trabalho. Tente novamente."
+      }
+    },
+    "relation": {
+      "relates_to": "Relacionado com",
+      "duplicate": "Duplicado de",
+      "blocked_by": "Bloqueado por",
+      "blocking": "A bloquear",
+      "start_before": "Começa antes",
+      "start_after": "Começa depois",
+      "finish_before": "Termina antes",
+      "finish_after": "Termina depois",
+      "implements": "Implementa",
+      "implemented_by": "Implementado por"
+    },
+    "copy_link": "Copiar ligação do item de trabalho",
+    "delete": {
+      "label": "Eliminar item de trabalho",
+      "error": "Erro ao eliminar o item de trabalho"
+    },
+    "subscription": {
+      "actions": {
+        "subscribed": "Subscreveu o item de trabalho com sucesso",
+        "unsubscribed": "Cancelou a subscrição do item de trabalho com sucesso"
+      }
+    },
+    "select": {
+      "error": "Selecione pelo menos um item de trabalho",
+      "empty": "Nenhum item de trabalho selecionado",
+      "add_selected": "Adicionar itens de trabalho selecionados",
+      "select_all": "Selecionar tudo",
+      "deselect_all": "Desmarcar tudo"
+    },
+    "open_in_full_screen": "Abrir item de trabalho em ecrã inteiro",
+    "duplicate": {
+      "modal": {
+        "title": "Fazer uma cópia para outro projeto",
+        "description1": "Isto cria uma cópia do item de trabalho.",
+        "description2": "Todos os dados de propriedades serão removidos ao duplicar.",
+        "placeholder": "Selecionar um projeto"
+      }
+    },
+    "toast": {
+      "duplicate": {
+        "success": {
+          "message": "Item de trabalho duplicado com sucesso"
+        },
+        "error": {
+          "message": "Falha ao duplicar o item de trabalho"
+        }
+      }
+    },
+    "pages": {
+      "link_pages": "Associar páginas",
+      "show_wiki_pages": "Mostrar páginas da Wiki",
+      "link_pages_to": "Associar páginas a",
+      "linked_pages": "Páginas associadas",
+      "no_description": "Esta página está vazia. Porque não escreve algo lá dentro e vê aparecer aqui, tal como este texto de exemplo",
+      "toasts": {
+        "link": {
+          "success": {
+            "title": "Páginas atualizadas",
+            "message": "Páginas atualizadas com sucesso"
+          },
+          "error": {
+            "title": "Falha ao atualizar as páginas",
+            "message": "Falha ao atualizar as páginas"
+          }
+        },
+        "remove": {
+          "success": {
+            "title": "Página removida",
+            "message": "Página removida com sucesso"
+          },
+          "error": {
+            "title": "Falha ao remover a página",
+            "message": "Falha ao remover a página"
+          }
+        }
+      }
+    },
+    "vote": {
+      "click_to_upvote": "Clique para votar a favor",
+      "click_to_downvote": "Clique para votar contra",
+      "click_to_view_upvotes": "Clique para ver os votos a favor",
+      "click_to_view_downvotes": "Clique para ver os votos contra"
+    }
+  },
+  "sub_work_item": {
+    "update": {
+      "success": "Subitem de trabalho atualizado com sucesso",
+      "error": "Erro ao atualizar o subitem de trabalho"
+    },
+    "remove": {
+      "success": "Subitem de trabalho removido com sucesso",
+      "error": "Erro ao remover o subitem de trabalho"
+    },
+    "empty_state": {
+      "sub_list_filters": {
+        "title": "Não tem subitens de trabalho que correspondam aos filtros aplicados.",
+        "description": "Para ver todos os subitens de trabalho, limpe todos os filtros aplicados.",
+        "action": "Limpar filtros"
+      },
+      "list_filters": {
+        "title": "Não tem itens de trabalho que correspondam aos filtros aplicados.",
+        "description": "Para ver todos os itens de trabalho, limpe todos os filtros aplicados.",
+        "action": "Limpar filtros"
+      }
+    }
+  },
+  "issue_relation": {
+    "empty_state": {
+      "search": {
+        "title": "Não foram encontrados itens de trabalho correspondentes"
+      },
+      "no_issues": {
+        "title": "Não foram encontrados itens de trabalho"
+      }
+    }
+  },
+  "issue_comment": {
+    "empty_state": {
+      "general": {
+        "title": "Ainda não há comentários",
+        "description": "Os comentários podem ser utilizados como espaço de discussão e acompanhamento dos itens de trabalho"
+      }
+    }
+  },
+  "bulk_operations": {
+    "error_details": {
+      "invalid_archive_state_group": {
+        "title": "Não é possível arquivar os itens de trabalho",
+        "message": "Apenas os itens de trabalho pertencentes aos grupos de estado Concluído ou Cancelado podem ser arquivados."
+      },
+      "invalid_issue_start_date": {
+        "title": "Não é possível atualizar os itens de trabalho",
+        "message": "A data de início selecionada é posterior à data limite de alguns itens de trabalho. Certifique-se de que a data de início é anterior à data limite."
+      },
+      "invalid_issue_target_date": {
+        "title": "Não é possível atualizar os itens de trabalho",
+        "message": "A data limite selecionada é anterior à data de início de alguns itens de trabalho. Certifique-se de que a data limite é posterior à data de início."
+      },
+      "invalid_state_transition": {
+        "title": "Não é possível atualizar os itens de trabalho",
+        "message": "A mudança de estado não é permitida para alguns itens de trabalho. Certifique-se de que a mudança de estado é permitida."
+      }
+    },
+    "upgrade_banner": {
+      "message": "Altere o estado, a prioridade e muito mais em vários itens de trabalho de uma só vez. Poupe, em média, três minutos por operação.",
+      "cta": "Fazer upgrade para One"
+    }
+  },
+  "recurring_work_items": {
+    "settings": {
+      "heading": "Itens de trabalho recorrentes",
+      "description": "Configure o seu trabalho repetitivo uma vez e nós tratamos das repetições. Verá tudo aqui quando chegar a altura.",
+      "new_recurring_work_item": "Novo item de trabalho recorrente",
+      "update_recurring_work_item": "Atualizar item de trabalho recorrente",
+      "form": {
+        "interval": {
+          "title": "Agendamento",
+          "start_date": {
+            "validation": {
+              "required": "A data de início é obrigatória"
+            }
+          },
+          "interval_type": {
+            "validation": {
+              "required": "O tipo de intervalo é obrigatório"
+            }
+          }
+        },
+        "button": {
+          "create": "Criar item de trabalho recorrente",
+          "update": "Atualizar item de trabalho recorrente"
+        }
+      },
+      "create_button": {
+        "label": "Criar item de trabalho recorrente",
+        "no_permission": "Contacte o administrador do projeto para criar itens de trabalho recorrentes"
+      }
+    },
+    "empty_state": {
+      "upgrade": {
+        "title": "O seu trabalho em piloto automático",
+        "description": "Configure uma vez. Nós trazemo-lo de volta quando chegar a altura. Atualize para o Business para tornar o trabalho recorrente simples."
+      },
+      "no_templates": {
+        "button": "Crie o seu primeiro item de trabalho recorrente"
+      }
+    },
+    "toasts": {
+      "create": {
+        "success": {
+          "title": "Item de trabalho recorrente criado",
+          "message": "{name}, o item de trabalho recorrente, está agora disponível no seu espaço de trabalho."
+        },
+        "error": {
+          "title": "Desta vez não foi possível criar esse item de trabalho recorrente.",
+          "message": "Tente guardar os seus dados novamente ou copie-os para um novo item de trabalho recorrente, de preferência noutro separador."
+        }
+      },
+      "update": {
+        "success": {
+          "title": "Item de trabalho recorrente alterado",
+          "message": "{name}, o item de trabalho recorrente, foi alterado."
+        },
+        "error": {
+          "title": "Não foi possível guardar as alterações a este item de trabalho recorrente.",
+          "message": "Tente guardar os seus dados novamente ou volte a este item de trabalho recorrente mais tarde. Se o problema persistir, contacte-nos."
+        }
+      },
+      "delete": {
+        "success": {
+          "title": "Item de trabalho recorrente eliminado",
+          "message": "{name}, o item de trabalho recorrente, foi eliminado do seu espaço de trabalho."
+        },
+        "error": {
+          "title": "Não foi possível eliminar esse item de trabalho recorrente.",
+          "message": "Tente eliminá-lo novamente ou volte mais tarde. Se mesmo assim não o conseguir eliminar, contacte-nos."
+        }
+      }
+    },
+    "delete_confirmation": {
+      "title": "Eliminar item de trabalho recorrente",
+      "description": {
+        "prefix": "Tem a certeza de que pretende eliminar o item de trabalho recorrente-",
+        "suffix": "? Todos os dados relacionados com o item de trabalho recorrente serão removidos permanentemente. Esta ação não pode ser anulada."
+      }
+    }
+  },
+  "epic": {
+    "new": "Novo Epic",
+    "label": "{count, plural, one {Epic} many {Epics} other {Epics}}",
+    "adding": "A adicionar epic",
+    "create": {
+      "success": "Epic criado com sucesso"
+    },
+    "add": {
+      "label": "Adicionar Epic",
+      "press_enter": "Prima 'Enter' para adicionar outro epic"
+    },
+    "title": {
+      "label": "Título do Epic",
+      "required": "O título do epic é obrigatório."
+    }
+  }
+}

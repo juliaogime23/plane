@@ -1,0 +1,59 @@
+{
+  "stickies": {
+    "title": "Os seus Stickies",
+    "placeholder": "clique para escrever aqui",
+    "all": "Todos os Stickies",
+    "no-data": "Aponte uma ideia, registe uma descoberta ou guarde um momento de inspiração. Adicione um Sticky para começar.",
+    "add": "Adicionar Sticky",
+    "search_placeholder": "Pesquisar por título",
+    "delete": "Eliminar Sticky",
+    "delete_confirmation": "Tem a certeza de que pretende eliminar este Sticky?",
+    "empty_state": {
+      "simple": "Aponte uma ideia, registe uma descoberta ou guarde um momento de inspiração. Adicione um Sticky para começar.",
+      "general": {
+        "title": "Os Stickies são notas rápidas e tarefas que aponta no momento.",
+        "description": "Registe os seus pensamentos e ideias sem esforço, ao criar Stickies a que pode aceder a qualquer momento e em qualquer lugar.",
+        "primary_button": {
+          "text": "Adicionar Sticky"
+        }
+      },
+      "search": {
+        "title": "Isso não corresponde a nenhum dos seus Stickies.",
+        "description": "Experimente outro termo ou informe-nos\nse tem a certeza de que a sua pesquisa está correta. ",
+        "primary_button": {
+          "text": "Adicionar Sticky"
+        }
+      }
+    },
+    "toasts": {
+      "errors": {
+        "wrong_name": "O nome do Sticky não pode ter mais de 100 caracteres.",
+        "already_exists": "Já existe um Sticky sem descrição"
+      },
+      "created": {
+        "title": "Sticky criado",
+        "message": "O Sticky foi criado com sucesso"
+      },
+      "not_created": {
+        "title": "Sticky não criado",
+        "message": "Não foi possível criar o Sticky"
+      },
+      "updated": {
+        "title": "Sticky atualizado",
+        "message": "O Sticky foi atualizado com sucesso"
+      },
+      "not_updated": {
+        "title": "Sticky não atualizado",
+        "message": "Não foi possível atualizar o Sticky"
+      },
+      "removed": {
+        "title": "Sticky removido",
+        "message": "O Sticky foi removido com sucesso"
+      },
+      "not_removed": {
+        "title": "Sticky não removido",
+        "message": "Não foi possível remover o Sticky"
+      }
+    }
+  }
+}

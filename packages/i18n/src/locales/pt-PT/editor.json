@@ -1,0 +1,65 @@
+{
+  "attachmentComponent": {
+    "uploader": {
+      "drag_and_drop": "Largue ficheiros aqui ou clique para carregar"
+    },
+    "errors": {
+      "file_too_large": {
+        "title": "Ficheiro demasiado grande.",
+        "description": "O tamanho máximo por ficheiro é {maxFileSize} MB"
+      },
+      "unsupported_file_type": {
+        "title": "Tipo de ficheiro não suportado.",
+        "description": "Ver formatos suportados"
+      },
+      "default": {
+        "title": "Falha no carregamento.",
+        "description": "Algo correu mal. Tente novamente."
+      }
+    },
+    "upgrade": {
+      "description": "Atualize o seu plano para ver este anexo."
+    },
+    "aria": {
+      "click_to_upload": "Clique para carregar o anexo"
+    }
+  },
+  "externalEmbedComponent": {
+    "block_menu": {
+      "convert_to_embed": "Converter em incorporação",
+      "convert_to_link": "Converter em ligação",
+      "convert_to_richcard": "Converter em cartão rico"
+    },
+    "placeholder": {
+      "insert_embed": "Insira aqui a sua ligação de incorporação preferida, como um vídeo do YouTube, um design do Figma, etc.",
+      "link": "Introduza ou cole uma ligação"
+    },
+    "input_modal": {
+      "embed": "Incorporar",
+      "works_with_links": "Funciona com YouTube, Figma, Google Docs e muito mais"
+    },
+    "error": {
+      "not_valid_link": "Introduza um URL válido."
+    }
+  },
+  "ai_block": {
+    "content": {
+      "placeholder": "Descreva o conteúdo deste bloco",
+      "generated_here": "O seu conteúdo de IA será gerado aqui"
+    },
+    "block_types": {
+      "placeholder": "Selecionar tipo de bloco",
+      "summarize_page": "Resumir página",
+      "custom_prompt": "Prompt personalizado"
+    },
+    "actions": {
+      "discard": "Descartar",
+      "generate": "Gerar",
+      "generating": "A gerar",
+      "rewriting": "A reescrever",
+      "rewrite": "Reescrever",
+      "use_this": "Usar este",
+      "refine": "Refinar"
+    }
+  }
+}

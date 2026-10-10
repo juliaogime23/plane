@@ -1,0 +1,195 @@
+{
+  "product_tour": {
+    "workitems": {
+      "step_zero": {
+        "title": "Bem-vindo ao seu espaço de trabalho",
+        "description": "Para o ajudar a começar, criámos um projeto de demonstração. Vamos adicionar o seu primeiro item de trabalho."
+      },
+      "step_one": {
+        "title": "Clique em \"+ Adicionar item de trabalho\"",
+        "description": "Comece por clicar no botão \"+ Novo item de trabalho\". Pode criar tarefas, bugs ou um tipo personalizado que se adapte às suas necessidades."
+      },
+      "step_two": {
+        "title": "Filtre os seus itens de trabalho",
+        "description": "Use filtros para restringir rapidamente a sua lista. Pode filtrar por estado, prioridade ou membros da equipa. "
+      },
+      "step_three": {
+        "title": "Veja, agrupe e ordene os itens de trabalho conforme necessário.",
+        "description": "Veja as propriedades necessárias e agrupe ou ordene os itens de trabalho de acordo com as suas necessidades."
+      },
+      "step_four": {
+        "title": "Visualize como quiser",
+        "description": "Selecione as propriedades que pretende ver na lista. Também pode agrupar e ordenar os itens de trabalho à sua maneira."
+      }
+    },
+    "cycle": {
+      "step_zero": {
+        "title": "Avance com os Ciclos",
+        "description": "Prima Q para criar um Ciclo. Dê-lhe um nome e defina as datas—apenas um ciclo por projeto."
+      },
+      "step_one": {
+        "title": "Criar um novo ciclo",
+        "description": "Prima Q para criar um Ciclo. Dê-lhe um nome e defina as datas—apenas um ciclo por projeto."
+      },
+      "step_two": {
+        "title": "Clique em \"+ \"",
+        "description": "Comece por clicar no botão \"+\". Adicione itens de trabalho novos ou existentes diretamente a partir da página do Ciclo."
+      },
+      "step_three": {
+        "title": "Resumo do ciclo",
+        "description": "Acompanhe o progresso do ciclo, a produtividade da equipa e as prioridades—e investigue se algo se atrasar."
+      },
+      "step_four": {
+        "title": "Transferir itens de trabalho",
+        "description": "Após a data limite, um ciclo é concluído automaticamente. Mova o trabalho não terminado para outro ciclo."
+      }
+    },
+    "module": {
+      "step_zero": {
+        "title": "Divida o seu projeto em Módulos",
+        "description": "Os módulos são projetos mais pequenos e focados que ajudam os utilizadores a agrupar e organizar itens de trabalho em períodos específicos."
+      },
+      "step_one": {
+        "title": "Criar Módulo",
+        "description": "Os módulos são projetos mais pequenos e focados que ajudam os utilizadores a agrupar e organizar itens de trabalho em períodos específicos."
+      },
+      "step_two": {
+        "title": "Clique em \"+ \"",
+        "description": "Comece por clicar no botão \"+\". Adicione itens de trabalho novos ou existentes diretamente a partir da página do Módulo."
+      },
+      "step_three": {
+        "title": "Estados do módulo",
+        "description": "Os módulos usam estes estados para ajudar os utilizadores a planear e acompanhar claramente o progresso e a fase."
+      },
+      "step_four": {
+        "title": "Progresso do módulo",
+        "description": "O progresso do módulo é acompanhado através dos itens concluídos, com análises para monitorizar o desempenho."
+      }
+    },
+    "page": {
+      "step_zero": {
+        "title": "Documente com Páginas com IA",
+        "description": "As Páginas no Plane permitem-lhe registar, organizar e colaborar em informações do projeto—sem precisar de ferramentas externas."
+      },
+      "step_one": {
+        "title": "Tornar a página pública ou privada",
+        "description": "As páginas podem ser definidas como públicas, visíveis para todos no seu espaço de trabalho, ou privadas, acessíveis apenas a si."
+      },
+      "step_two": {
+        "title": "Usar o comando /",
+        "description": "Use / numa página para adicionar conteúdo de 16 tipos de blocos, incluindo listas, imagens, tabelas e incorporações."
+      },
+      "step_three": {
+        "title": "Ações da página",
+        "description": "Depois de criar a sua página, pode clicar no menu ••• no canto superior direito para realizar as seguintes ações."
+      },
+      "step_four": {
+        "title": "Índice",
+        "description": "Obtenha uma visão geral da sua página ao clicar no ícone do painel para ver todos os títulos."
+      },
+      "step_five": {
+        "title": "Histórico de versões",
+        "description": "As páginas registam todas as edições com o histórico de versões, o que permite restaurar versões anteriores se necessário."
+      }
+    },
+    "intake": {
+      "step_zero": {
+        "title": "Simplifique os pedidos com o Intake",
+        "description": "Uma funcionalidade exclusiva do Plane que permite aos convidados criar itens de trabalho para bugs, pedidos ou tickets."
+      },
+      "step_one": {
+        "title": "Pedidos do Intake abertos/fechados",
+        "description": "Os pedidos pendentes ficam no separador Abertos e, depois de tratados por um administrador ou membro, passam para Fechados."
+      },
+      "step_two": {
+        "title": "Aceitar/recusar um pedido pendente",
+        "description": "Aceite para editar e mover o item de trabalho para o seu projeto, ou recuse-o para o marcar como Cancelado."
+      },
+      "step_three": {
+        "title": "Adiar por agora",
+        "description": "Um item de trabalho pode ser adiado para ser revisto mais tarde. Será movido para o fim da sua lista de pedidos abertos."
+      }
+    },
+    "mcp_connectors": {
+      "step_zero": {
+        "title": "Pare de alternar entre separadores. Ligue o seu mundo.",
+        "description": "Ligue o GitHub e o Slack para acompanhar PRs e resumir conversas diretamente no Plane AI."
+      }
+    },
+    "navigation": {
+      "modal": {
+        "title": "Navegação, reinventada",
+        "sub_title": "O seu espaço de trabalho é agora mais fácil de explorar com uma navegação mais inteligente e simplificada.",
+        "highlight_1": "Estrutura do painel esquerdo simplificada para encontrar tudo mais depressa",
+        "highlight_2": "Pesquisa global melhorada para saltar instantaneamente para qualquer coisa",
+        "highlight_3": "Agrupamento de categorias mais inteligente para mais clareza e foco",
+        "footer": "Quer uma visita guiada rápida?"
+      },
+      "step_zero": {
+        "title": "Encontre qualquer coisa instantaneamente",
+        "description": "Use a pesquisa universal para saltar para tarefas, projetos, páginas e pessoas—sem sair do seu fluxo."
+      },
+      "step_one": {
+        "title": "Mantenha o controlo das atualizações",
+        "description": "A sua caixa de entrada reúne todas as menções, aprovações e atividade num só lugar, para que nunca perca trabalho importante."
+      },
+      "step_two": {
+        "title": "Personalize a sua navegação",
+        "description": "Personalize o que vê e como navega nas Preferências."
+      }
+    },
+    "actions": {
+      "close": "Fechar",
+      "next": "Seguinte",
+      "back": "Voltar",
+      "done": "Concluído",
+      "take_a_tour": "Fazer uma visita guiada",
+      "get_started": "Começar",
+      "got_it": "Entendido"
+    },
+    "seed_data": {
+      "title": "Aqui está o seu projeto de demonstração",
+      "description": "Os projetos permitem-lhe gerir as suas equipas, tarefas e tudo o que precisa para fazer as coisas acontecerem no seu espaço de trabalho."
+    }
+  },
+  "get_started": {
+    "title": "Olá {name}, bem-vindo a bordo!",
+    "description": "Aqui está tudo o que precisa para dar início à sua jornada com o Plane.",
+    "checklist_section": {
+      "title": "Começar",
+      "description": "Comece a sua configuração e veja as suas ideias ganharem vida mais depressa.",
+      "checklist_items": {
+        "item_1": {
+          "title": "Criar um projeto"
+        },
+        "item_2": {
+          "title": "Criar um item de trabalho"
+        },
+        "item_3": {
+          "title": "Convidar membros da equipa"
+        },
+        "item_4": {
+          "title": "Criar uma página"
+        },
+        "item_5": {
+          "title": "Experimentar o chat do Plane AI"
+        },
+        "item_6": {
+          "title": "Ligar integrações"
+        }
+      }
+    },
+    "team_section": {
+      "title": "Convide a sua equipa",
+      "description": "Convide colegas e comece a construir em conjunto."
+    },
+    "integrations_section": {
+      "title": "Potencie o seu espaço de trabalho",
+      "more_integrations": "Explorar mais integrações"
+    },
+    "switch_to_plane_section": {
+      "title": "Descubra porque é que as equipas mudam para o Plane",
+      "description": "Compare o Plane com as ferramentas que usa hoje e veja a diferença."
+    }
+  }
+}

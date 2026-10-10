@@ -47,18 +47,18 @@ For each term: the source, the required rendering per script group, and **forbid
 
 ### Plane brand & features
 
-| Source term                        | Latin locales (fr, es, it, de, pt-BR, pl, cs, sk, ro, tr-TR, vi-VN, id) | ja (katakana-default) | ko (Hangul-default) | zh-CN / zh-TW                                 | ru                | ua                | **Forbidden** (never produce)                                                     |
-| ---------------------------------- | ----------------------------------------------------------------------- | --------------------- | ------------------- | --------------------------------------------- | ----------------- | ----------------- | --------------------------------------------------------------------------------- |
-| **Plane**                          | Plane                                                                   | Plane                 | Plane               | Plane                                         | Plane             | Plane             | 飛行機, 飞机, 비행기, Самолёт, Літак, Avion, Avião, Aereo, Flugzeug               |
-| **Plane AI** (formerly PI Chat)    | Plane AI                                                                | Plane AI              | Plane AI            | Plane AI                                      | Plane AI          | Plane AI          | Чат ИИ, AI 聊天, AIチャット, AI 채팅, Chat IA, AI Çet, PI Chat (legacy)           |
-| **Power K**                        | Power K                                                                 | Power K               | Power K             | Power K                                       | Power K           | Power K           | Command K, Command Palette, コマンドパレット, 命令面板, Палитра команд            |
-| **PQL**                            | PQL                                                                     | PQL                   | PQL                 | PQL                                           | PQL               | PQL               | any expansion of the acronym into the target language                             |
-| **Intake** (feature name)          | Intake                                                                  | Intake                | Intake              | Intake                                        | Intake            | Intake            | Inbox, 受信箱, 收件箱, Входящие, Triage, Boîte de réception                       |
-| **Active Cycles** (workspace view) | Active Cycles                                                           | Active Cycles         | Active Cycles       | Active Cycles                                 | Active Cycles     | Active Cycles     | Translate as a unit; never split into generic "active" + localized "cycles"       |
-| **Sticky** / **Stickies**          | Sticky / Stickies                                                       | Sticky / Stickies     | Sticky / Stickies   | Sticky / Stickies (Latin inside Chinese text) | Sticky / Stickies | Sticky / Stickies | 便签, 便利貼, メモ, 付箋, スティッキー, 메모, 스티키, заметка, Стикер, Note, Nota |
-| **Pro** (plan tier)                | Pro                                                                     | Pro                   | Pro                 | Pro                                           | Pro               | Pro               | Профессиональный, プロフェッショナル, 专业版, 專業版, Profesional                 |
-| **Business** (plan tier)           | Business                                                                | Business              | Business            | Business                                      | Business          | Business          | Бизнес, ビジネス, 商业版, 商務版, Negocios, Negócios                              |
-| **Enterprise** (plan tier)         | Enterprise                                                              | Enterprise            | Enterprise          | Enterprise                                    | Enterprise        | Enterprise        | Корпоративный, エンタープライズ, 企业版, 企業版, Empresarial                      |
+| Source term                        | Latin locales (fr, es, it, de, pt-BR, pt-PT, pl, cs, sk, ro, tr-TR, vi-VN, id) | ja (katakana-default) | ko (Hangul-default) | zh-CN / zh-TW                                 | ru                | ua                | **Forbidden** (never produce)                                                     |
+| ---------------------------------- | ------------------------------------------------------------------------------ | --------------------- | ------------------- | --------------------------------------------- | ----------------- | ----------------- | --------------------------------------------------------------------------------- |
+| **Plane**                          | Plane                                                                          | Plane                 | Plane               | Plane                                         | Plane             | Plane             | 飛行機, 飞机, 비행기, Самолёт, Літак, Avion, Avião, Aereo, Flugzeug               |
+| **Plane AI** (formerly PI Chat)    | Plane AI                                                                       | Plane AI              | Plane AI            | Plane AI                                      | Plane AI          | Plane AI          | Чат ИИ, AI 聊天, AIチャット, AI 채팅, Chat IA, AI Çet, PI Chat (legacy)           |
+| **Power K**                        | Power K                                                                        | Power K               | Power K             | Power K                                       | Power K           | Power K           | Command K, Command Palette, コマンドパレット, 命令面板, Палитра команд            |
+| **PQL**                            | PQL                                                                            | PQL                   | PQL                 | PQL                                           | PQL               | PQL               | any expansion of the acronym into the target language                             |
+| **Intake** (feature name)          | Intake                                                                         | Intake                | Intake              | Intake                                        | Intake            | Intake            | Inbox, 受信箱, 收件箱, Входящие, Triage, Boîte de réception                       |
+| **Active Cycles** (workspace view) | Active Cycles                                                                  | Active Cycles         | Active Cycles       | Active Cycles                                 | Active Cycles     | Active Cycles     | Translate as a unit; never split into generic "active" + localized "cycles"       |
+| **Sticky** / **Stickies**          | Sticky / Stickies                                                              | Sticky / Stickies     | Sticky / Stickies   | Sticky / Stickies (Latin inside Chinese text) | Sticky / Stickies | Sticky / Stickies | 便签, 便利貼, メモ, 付箋, スティッキー, 메모, 스티키, заметка, Стикер, Note, Nota |
+| **Pro** (plan tier)                | Pro                                                                            | Pro                   | Pro                 | Pro                                           | Pro               | Pro               | Профессиональный, プロフェッショナル, 专业版, 專業版, Profesional                 |
+| **Business** (plan tier)           | Business                                                                       | Business              | Business            | Business                                      | Business          | Business          | Бизнес, ビジネス, 商业版, 商務版, Negocios, Negócios                              |
+| **Enterprise** (plan tier)         | Enterprise                                                                     | Enterprise            | Enterprise          | Enterprise                                    | Enterprise        | Enterprise        | Корпоративный, エンタープライズ, 企业版, 企業版, Empresarial                      |
 
 ### Plane feature noun translation glossary (translate, do not preserve)
 
@@ -66,16 +66,16 @@ These are common nouns. **Translate them into the target language** using the ca
 
 Use the table verbatim — never coin new variants; never leave the Latin form in the locale value.
 
-| Source      | zh-CN | zh-TW | ja         | ko     | ru       | ua       | de     | fr      | es      | it     | pt-BR   | pl     | cs      | sk      | ro      | tr-TR    | vi-VN  | id      |
-| ----------- | ----- | ----- | ---------- | ------ | -------- | -------- | ------ | ------- | ------- | ------ | ------- | ------ | ------- | ------- | ------- | -------- | ------ | ------- |
-| **Cycle**   | 周期  | 週期  | サイクル   | 사이클 | Цикл     | Цикл     | Zyklus | Cycle   | Ciclo   | Ciclo  | Ciclo   | Cykl   | Cyklus  | Cyklus  | Ciclu   | Döngü    | Chu kỳ | Siklus  |
-| **Cycles**  | 周期  | 週期  | サイクル   | 사이클 | Циклы    | Цикли    | Zyklen | Cycles  | Ciclos  | Cicli  | Ciclos  | Cykle  | Cykly   | Cykly   | Cicluri | Döngüler | Chu kỳ | Siklus  |
-| **Module**  | 模块  | 模組  | モジュール | 모듈   | Модуль   | Модуль   | Modul  | Module  | Módulo  | Modulo | Módulo  | Moduł  | Modul   | Modul   | Modul   | Modül    | Mô-đun | Modul   |
-| **Modules** | 模块  | 模組  | モジュール | 모듈   | Модули   | Модулі   | Module | Modules | Módulos | Moduli | Módulos | Moduły | Moduly  | Moduly  | Module  | Modüller | Mô-đun | Modul   |
-| **Epic**    | 史诗  | 史詩  | エピック   | 에픽   | Эпик     | Епік     | Epic   | Epic    | Epic    | Epic   | Epic    | Epik   | Epik    | Epik    | Epic    | Epik     | Epic   | Epik    |
-| **Epics**   | 史诗  | 史詩  | エピック   | 에픽   | Эпики    | Епіки    | Epics  | Epics   | Epics   | Epics  | Epics   | Epiki  | Epiky   | Epiky   | Epice   | Epikler  | Epic   | Epik    |
-| **Page**    | 页面  | 頁面  | ページ     | 페이지 | Страница | Сторінка | Seite  | Page    | Página  | Pagina | Página  | Strona | Stránka | Stránka | Pagină  | Sayfa    | Trang  | Halaman |
-| **Pages**   | 页面  | 頁面  | ページ     | 페이지 | Страницы | Сторінки | Seiten | Pages   | Páginas | Pagine | Páginas | Strony | Stránky | Stránky | Pagini  | Sayfalar | Trang  | Halaman |
+| Source      | zh-CN | zh-TW | ja         | ko     | ru       | ua       | de     | fr      | es      | it     | pt-BR   | pt-PT   | pl     | cs      | sk      | ro      | tr-TR    | vi-VN  | id      |
+| ----------- | ----- | ----- | ---------- | ------ | -------- | -------- | ------ | ------- | ------- | ------ | ------- | ------- | ------ | ------- | ------- | ------- | -------- | ------ | ------- |
+| **Cycle**   | 周期  | 週期  | サイクル   | 사이클 | Цикл     | Цикл     | Zyklus | Cycle   | Ciclo   | Ciclo  | Ciclo   | Ciclo   | Cykl   | Cyklus  | Cyklus  | Ciclu   | Döngü    | Chu kỳ | Siklus  |
+| **Cycles**  | 周期  | 週期  | サイクル   | 사이클 | Циклы    | Цикли    | Zyklen | Cycles  | Ciclos  | Cicli  | Ciclos  | Ciclos  | Cykle  | Cykly   | Cykly   | Cicluri | Döngüler | Chu kỳ | Siklus  |
+| **Module**  | 模块  | 模組  | モジュール | 모듈   | Модуль   | Модуль   | Modul  | Module  | Módulo  | Modulo | Módulo  | Módulo  | Moduł  | Modul   | Modul   | Modul   | Modül    | Mô-đun | Modul   |
+| **Modules** | 模块  | 模組  | モジュール | 모듈   | Модули   | Модулі   | Module | Modules | Módulos | Moduli | Módulos | Módulos | Moduły | Moduly  | Moduly  | Module  | Modüller | Mô-đun | Modul   |
+| **Epic**    | 史诗  | 史詩  | エピック   | 에픽   | Эпик     | Епік     | Epic   | Epic    | Epic    | Epic   | Epic    | Epic    | Epik   | Epik    | Epik    | Epic    | Epik     | Epic   | Epik    |
+| **Epics**   | 史诗  | 史詩  | エピック   | 에픽   | Эпики    | Епіки    | Epics  | Epics   | Epics   | Epics  | Epics   | Epics   | Epiki  | Epiky   | Epiky   | Epice   | Epikler  | Epic   | Epik    |
+| **Page**    | 页面  | 頁面  | ページ     | 페이지 | Страница | Сторінка | Seite  | Page    | Página  | Pagina | Página  | Página  | Strona | Stránka | Stránka | Pagină  | Sayfa    | Trang  | Halaman |
+| **Pages**   | 页面  | 頁面  | ページ     | 페이지 | Страницы | Сторінки | Seiten | Pages   | Páginas | Pagine | Páginas | Páginas | Strony | Stránky | Stránky | Pagini  | Sayfalar | Trang  | Halaman |
 
 Notes:
 
@@ -138,7 +138,7 @@ Apply by target-language script, not by locale list. Adding a new Latin-script l
 
 ### Latin-script locales
 
-Currently includes fr, es, it, de, pt-BR, pl, cs, sk, ro, tr-TR, vi-VN, id — and any future locale that uses the Latin alphabet (hu, nl, sv, da, nb, fi, hr, bg-using-Latin variants, etc.).
+Currently includes fr, es, it, de, pt-BR, pt-PT, pl, cs, sk, ro, tr-TR, vi-VN, id — and any future locale that uses the Latin alphabet (hu, nl, sv, da, nb, fi, hr, bg-using-Latin variants, etc.).
 
 **Translate Plane feature nouns** (Cycle, Cycles, Module, Modules, Epic, Epics, Page, Pages) using the per-locale form from the glossary above. **Keep Latin** for Plane brand marks (Plane, Plane AI, Power K, PQL, Active Cycles, Sticky, Stickies, Intake), plan tier names (Pro, Business, Enterprise), and third-party brands (GitHub, Slack, etc.).
 
@@ -256,6 +256,7 @@ Below are the required keywords for locales currently in the repo. When adding a
 | fr                                                 | `one, many, other`                                                                    | 0, 1 → one; 1 000 000 → many; else other                                      |
 | it                                                 | `one, many, other`                                                                    | 1 → one; 1 000 000 → many; else other                                         |
 | pt-BR                                              | `one, many, other`                                                                    | 0, 1 → one; 1 000 000 → many; else other                                      |
+| pt-PT                                              | `one, many, other`                                                                    | 1 → one; 0, 2+ → other; 1 000 000 → many (unlike pt-BR, 0 is `other`)         |
 | ro                                                 | `one, few, other`                                                                     | 1 → one; 0, 2–19 → few; 20+ → other                                           |
 | pl                                                 | `one, few, many, other`                                                               | 1 → one; 2–4 (not 12–14) → few; 0, 5–20, many-digit → many; decimals → other  |
 | cs                                                 | `one, few, many, other`                                                               | 1 → one; 2–4 → few; decimals → many; 0, 5+ → other                            |
@@ -332,6 +333,7 @@ Table below covers locales currently in the repo; add a row when you add a local
 | **es**                 | Inverted `¿…?` and `¡…!` at the start of questions/exclamations. Primary quotes `«…»` or `"…"`.                                                                                                  |
 | **it**                 | Primary quotes `«…»` or `"…"`.                                                                                                                                                                   |
 | **pt-BR**              | Straight quotes `"…"`.                                                                                                                                                                           |
+| **pt-PT**              | Straight quotes `"…"`. European spelling (AO90): `facto`, `contacto`, `receção`, `económico`, `registo`.                                                                                         |
 | **pl**                 | Primary quotes `„…"`.                                                                                                                                                                            |
 | **cs / sk**            | Primary quotes `„…"`.                                                                                                                                                                            |
 | **ro**                 | Primary quotes `„…"`.                                                                                                                                                                            |
@@ -346,25 +348,26 @@ Table below covers locales currently in the repo; add a row when you add a local
 
 Formality defaults for locales currently in the repo. Add a row for each new locale, consulting the Microsoft Style Guide for that locale as the default authority on product-UI register.
 
-| Locale  | Default "you"                                                                | Notes                                            |
-| ------- | ---------------------------------------------------------------------------- | ------------------------------------------------ |
-| fr      | **vous**                                                                     | Never "tu" in product UI                         |
-| es      | **usted** + **ustedes**                                                      | Neutral Spanish — no "vosotros", no "tú"         |
-| it      | **Lei** (formal third-person)                                                | B2B/enterprise convention                        |
-| de      | **Sie**                                                                      | Use infinitive constructions for system messages |
-| pt-BR   | **você**                                                                     | Semi-formal default; never "tu"                  |
-| pl      | **Pan/Pani** + 3rd-person, or impersonal                                     | Never "ty"                                       |
-| cs / sk | **Vy** (formal, 3rd-person plural)                                           | Never "ty"                                       |
-| ro      | **dumneavoastră** (formal)                                                   | Or impersonal                                    |
-| tr-TR   | **siz** + `-iniz` endings                                                    | Never "sen"                                      |
-| vi-VN   | **bạn** (safe neutral)                                                       | Never "mày/tao"; consistency > variety           |
-| id      | **Anda** (always capitalized)                                                | Never "kamu" in product UI                       |
-| ja      | **です・ます体**                                                             | Never plain form; avoid 尊敬語・謙譲語           |
-| ko      | **합니다체** for system/errors; **해요체** acceptable for onboarding         | Match surrounding file                           |
-| zh-CN   | **您**                                                                       | B2B convention; never 你                         |
-| zh-TW   | **您**                                                                       | B2B convention; never 你                         |
-| ru      | **Вы** (cap.) for singular direct address, **вы** (lower) for plural/general | Context-dependent                                |
-| ua      | **ви** (lowercase, modern convention)                                        | Capitalized Ви only for very formal              |
+| Locale  | Default "you"                                                                | Notes                                                           |
+| ------- | ---------------------------------------------------------------------------- | --------------------------------------------------------------- |
+| fr      | **vous**                                                                     | Never "tu" in product UI                                        |
+| es      | **usted** + **ustedes**                                                      | Neutral Spanish — no "vosotros", no "tú"                        |
+| it      | **Lei** (formal third-person)                                                | B2B/enterprise convention                                       |
+| de      | **Sie**                                                                      | Use infinitive constructions for system messages                |
+| pt-BR   | **você**                                                                     | Semi-formal default; never "tu"                                 |
+| pt-PT   | **3rd person, no pronoun** ("Tem a certeza…", "o seu espaço de trabalho")    | Never "você" or "tu"; gerund → `a` + infinitive ("A carregar…") |
+| pl      | **Pan/Pani** + 3rd-person, or impersonal                                     | Never "ty"                                                      |
+| cs / sk | **Vy** (formal, 3rd-person plural)                                           | Never "ty"                                                      |
+| ro      | **dumneavoastră** (formal)                                                   | Or impersonal                                                   |
+| tr-TR   | **siz** + `-iniz` endings                                                    | Never "sen"                                                     |
+| vi-VN   | **bạn** (safe neutral)                                                       | Never "mày/tao"; consistency > variety                          |
+| id      | **Anda** (always capitalized)                                                | Never "kamu" in product UI                                      |
+| ja      | **です・ます体**                                                             | Never plain form; avoid 尊敬語・謙譲語                          |
+| ko      | **합니다체** for system/errors; **해요체** acceptable for onboarding         | Match surrounding file                                          |
+| zh-CN   | **您**                                                                       | B2B convention; never 你                                        |
+| zh-TW   | **您**                                                                       | B2B convention; never 你                                        |
+| ru      | **Вы** (cap.) for singular direct address, **вы** (lower) for plural/general | Context-dependent                                               |
+| ua      | **ви** (lowercase, modern convention)                                        | Capitalized Ви only for very formal                             |
 
 General writing rules (apply across all locales):
 
@@ -387,6 +390,7 @@ Design strings knowing translations will grow. Typical expansion vs. English for
 | es           | +15–30%                                           |                                                 |
 | it           | +10–25%                                           |                                                 |
 | pt-BR        | +15–30%                                           |                                                 |
+| pt-PT        | +15–30%                                           |                                                 |
 | pl           | +20–30%                                           |                                                 |
 | cs, sk       | +10–20%                                           |                                                 |
 | ro           | +15–25%                                           |                                                 |
@@ -541,6 +545,7 @@ pnpm --filter @plane/i18n run check:sync
 - **Korean particle mismatch after Hangul transliteration** — `사이클를` is wrong (vowel-particle after consonant-ending noun); use `사이클을`. Same for 모듈, 에픽.
 - **Vietnamese diacritic stripping** — `bạn` is not `ban`; diacritics are mandatory.
 - **Lowercase `anda` in Indonesian** — `Anda` is always capitalized in product UI.
+- **Mixing pt-BR and pt-PT vocabulary** — `usuário`/`utilizador`, `arquivo`/`ficheiro`, `salvar`/`guardar`, `excluir`/`eliminar`, `equipe`/`equipa`, `tela`/`ecrã`, `configurações`/`definições`, gerund `carregando`/`a carregar`. Never copy pt-BR into `pt-PT/` unconverted.
 - **Mixing zh-CN and zh-TW vocabulary** — `视频` ≠ `影片`, `软件` ≠ `軟體`. Never copy-paste between the two directories.
 
 ## Red Flags — Stop and Revert

@@ -1,0 +1,418 @@
+{
+  "project_view": {
+    "sort_by": {
+      "created_at": "Criado em",
+      "updated_at": "Atualizado em",
+      "name": "Nome"
+    }
+  },
+  "project_cycles": {
+    "add_cycle": "Adicionar ciclo",
+    "more_details": "Mais detalhes",
+    "cycle": "Ciclo",
+    "update_cycle": "Atualizar ciclo",
+    "create_cycle": "Criar ciclo",
+    "no_matching_cycles": "Nenhum ciclo correspondente",
+    "remove_filters_to_see_all_cycles": "Remova os filtros para ver todos os ciclos",
+    "remove_search_criteria_to_see_all_cycles": "Remova os critérios de pesquisa para ver todos os ciclos",
+    "only_completed_cycles_can_be_archived": "Apenas os ciclos concluídos podem ser arquivados",
+    "start_date": "Data de início",
+    "end_date": "Data de fim",
+    "in_your_timezone": "No seu fuso horário",
+    "transfer_work_items": "Transferir {count} itens de trabalho",
+    "transfer": {
+      "no_cycles_available": "Não há outros ciclos disponíveis para onde transferir itens de trabalho."
+    },
+    "date_range": "Intervalo de datas",
+    "add_date": "Adicionar data",
+    "active_cycle": {
+      "label": "Ciclo ativo",
+      "progress": "Progresso",
+      "chart": "Gráfico de burndown",
+      "priority_issue": "Itens de trabalho prioritários",
+      "assignees": "Responsáveis",
+      "issue_burndown": "Burndown de itens de trabalho",
+      "ideal": "Ideal",
+      "current": "Atual",
+      "labels": "Etiquetas",
+      "trailing": "Atrasado",
+      "leading": "Adiantado"
+    },
+    "upcoming_cycle": {
+      "label": "Próximo ciclo"
+    },
+    "completed_cycle": {
+      "label": "Ciclo concluído"
+    },
+    "status": {
+      "days_left": "Dias restantes",
+      "completed": "Concluído",
+      "yet_to_start": "Ainda não começou",
+      "in_progress": "Em curso",
+      "draft": "Rascunho"
+    },
+    "action": {
+      "restore": {
+        "title": "Restaurar ciclo",
+        "success": {
+          "title": "Ciclo restaurado",
+          "description": "O ciclo foi restaurado."
+        },
+        "failed": {
+          "title": "Falha ao restaurar o ciclo",
+          "description": "Não foi possível restaurar o ciclo. Tente novamente."
+        }
+      },
+      "favorite": {
+        "loading": "A adicionar o ciclo aos favoritos",
+        "success": {
+          "description": "Ciclo adicionado aos favoritos.",
+          "title": "Sucesso!"
+        },
+        "failed": {
+          "description": "Não foi possível adicionar o ciclo aos favoritos. Tente novamente.",
+          "title": "Erro!"
+        }
+      },
+      "unfavorite": {
+        "loading": "A remover o ciclo dos favoritos",
+        "success": {
+          "description": "Ciclo removido dos favoritos.",
+          "title": "Sucesso!"
+        },
+        "failed": {
+          "description": "Não foi possível remover o ciclo dos favoritos. Tente novamente.",
+          "title": "Erro!"
+        }
+      },
+      "update": {
+        "loading": "A atualizar o ciclo",
+        "success": {
+          "description": "Ciclo atualizado com sucesso.",
+          "title": "Sucesso!"
+        },
+        "failed": {
+          "description": "Erro ao atualizar o ciclo. Tente novamente.",
+          "title": "Erro!"
+        },
+        "error": {
+          "already_exists": "Já tem um ciclo nas datas indicadas. Se pretender criar um ciclo em rascunho, pode fazê-lo ao remover ambas as datas."
+        }
+      }
+    },
+    "empty_state": {
+      "general": {
+        "title": "Agrupe e delimite no tempo o seu trabalho em Ciclos.",
+        "description": "Divida o trabalho em blocos com duração definida, parta do prazo do seu projeto para trás para definir datas e faça progressos tangíveis como equipa.",
+        "primary_button": {
+          "text": "Defina o seu primeiro ciclo",
+          "comic": {
+            "title": "Os ciclos são períodos de tempo repetitivos.",
+            "description": "Um sprint, uma iteração ou qualquer outro termo que use para o acompanhamento semanal ou quinzenal do trabalho é um ciclo."
+          }
+        }
+      },
+      "no_issues": {
+        "title": "Nenhum item de trabalho adicionado ao ciclo",
+        "description": "Adicione ou crie os itens de trabalho que pretende delimitar no tempo e entregar dentro deste ciclo",
+        "primary_button": {
+          "text": "Criar novo item de trabalho"
+        },
+        "secondary_button": {
+          "text": "Adicionar item de trabalho existente"
+        }
+      },
+      "completed_no_issues": {
+        "title": "Nenhum item de trabalho no ciclo",
+        "description": "Nenhum item de trabalho no ciclo. Os itens de trabalho foram transferidos ou estão ocultos. Para ver os itens de trabalho ocultos, se existirem, atualize as suas propriedades de apresentação em conformidade."
+      },
+      "active": {
+        "title": "Nenhum ciclo ativo",
+        "description": "Um ciclo ativo inclui qualquer período cujo intervalo abranja a data de hoje. Encontre aqui o progresso e os detalhes do ciclo ativo."
+      },
+      "archived": {
+        "title": "Ainda não há ciclos arquivados",
+        "description": "Para arrumar o seu projeto, arquive os ciclos concluídos. Encontre-os aqui depois de arquivados."
+      }
+    }
+  },
+  "project_views": {
+    "empty_state": {
+      "general": {
+        "title": "Guarde vistas filtradas para o seu projeto. Crie tantas quantas precisar",
+        "description": "As vistas são conjuntos de filtros guardados que utiliza com frequência ou a que pretende aceder facilmente. Todos os seus colegas num projeto podem ver as vistas de todos e escolher a que melhor se adapta às suas necessidades.",
+        "primary_button": {
+          "text": "Crie a sua primeira vista",
+          "comic": {
+            "title": "As vistas funcionam sobre as propriedades dos itens de trabalho.",
+            "description": "Pode criar aqui uma vista com tantas propriedades como filtros quantas considerar adequadas."
+          }
+        },
+        "filter": {
+          "title": "Nenhuma vista correspondente",
+          "description": "Nenhuma vista corresponde aos critérios de pesquisa.\n Em alternativa, crie uma nova vista."
+        }
+      },
+      "no_archived_issues": {
+        "title": "Ainda não há itens de trabalho arquivados",
+        "description": "Manualmente ou através de automatização, pode arquivar itens de trabalho concluídos ou cancelados. Encontre-os aqui depois de arquivados.",
+        "primary_button": {
+          "text": "Definir automatização"
+        }
+      },
+      "issues_empty_filter": {
+        "title": "Não foram encontrados itens de trabalho que correspondam aos filtros aplicados",
+        "secondary_button": {
+          "text": "Limpar todos os filtros"
+        }
+      },
+      "public": {
+        "title": "Ainda não há páginas públicas",
+        "description": "Veja aqui as páginas partilhadas com todos no seu projeto.",
+        "primary_button": {
+          "text": "Crie a sua primeira página"
+        }
+      },
+      "archived": {
+        "title": "Ainda não há páginas arquivadas",
+        "description": "Arquive as páginas que não estão no seu radar. Aceda-lhes aqui quando precisar."
+      },
+      "shared": {
+        "title": "Ainda não há páginas partilhadas",
+        "description": "As páginas que outras pessoas partilharam consigo aparecerão aqui."
+      }
+    },
+    "delete_view": {
+      "title": "Tem a certeza de que pretende eliminar esta vista?",
+      "content": "Se confirmar, todas as opções de ordenação, filtro e apresentação + o esquema que escolheu para esta vista serão eliminados permanentemente, sem qualquer forma de os restaurar."
+    }
+  },
+  "project_issues": {
+    "empty_state": {
+      "no_issues": {
+        "title": "Crie um item de trabalho e atribua-o a alguém, até a si próprio",
+        "description": "Pense nos itens de trabalho como trabalhos, tarefas ou JTBD. Que é como gostamos de lhes chamar. Um item de trabalho e os respetivos subitens de trabalho são normalmente ações com prazo atribuídas a membros da sua equipa. A sua equipa cria, atribui e conclui itens de trabalho para fazer avançar o projeto em direção ao seu objetivo.",
+        "primary_button": {
+          "text": "Crie o seu primeiro item de trabalho",
+          "comic": {
+            "title": "Os itens de trabalho são os blocos de construção do Plane.",
+            "description": "Redesenhar a interface do Plane, renovar a marca da empresa ou lançar o novo sistema de injeção de combustível são exemplos de itens de trabalho que provavelmente têm subitens de trabalho."
+          }
+        }
+      },
+      "no_archived_issues": {
+        "title": "Ainda não há itens de trabalho arquivados",
+        "description": "Manualmente ou através de automatização, pode arquivar itens de trabalho concluídos ou cancelados. Encontre-os aqui depois de arquivados.",
+        "primary_button": {
+          "text": "Definir automatização"
+        }
+      },
+      "issues_empty_filter": {
+        "title": "Não foram encontrados itens de trabalho que correspondam aos filtros aplicados",
+        "secondary_button": {
+          "text": "Limpar todos os filtros"
+        }
+      }
+    }
+  },
+  "project_module": {
+    "add_module": "Adicionar Módulo",
+    "update_module": "Atualizar Módulo",
+    "create_module": "Criar Módulo",
+    "archive_module": "Arquivar Módulo",
+    "restore_module": "Restaurar Módulo",
+    "delete_module": "Eliminar módulo",
+    "empty_state": {
+      "general": {
+        "title": "Associe os marcos do seu projeto a Módulos e acompanhe facilmente o trabalho agregado.",
+        "description": "Um grupo de itens de trabalho que pertencem a um pai lógico e hierárquico forma um módulo. Pense neles como uma forma de acompanhar o trabalho por marcos do projeto. Têm os seus próprios períodos e prazos, bem como análises que o ajudam a ver quão perto ou longe está de um marco.",
+        "primary_button": {
+          "text": "Crie o seu primeiro módulo",
+          "comic": {
+            "title": "Os módulos ajudam a agrupar o trabalho por hierarquia.",
+            "description": "Um módulo de carrinho, um módulo de chassis e um módulo de armazém são bons exemplos deste agrupamento."
+          }
+        }
+      },
+      "no_issues": {
+        "title": "Nenhum item de trabalho no módulo",
+        "description": "Crie ou adicione os itens de trabalho que pretende concluir no âmbito deste módulo",
+        "primary_button": {
+          "text": "Criar novos itens de trabalho"
+        },
+        "secondary_button": {
+          "text": "Adicionar um item de trabalho existente"
+        }
+      },
+      "archived": {
+        "title": "Ainda não há Módulos arquivados",
+        "description": "Para arrumar o seu projeto, arquive os módulos concluídos ou cancelados. Encontre-os aqui depois de arquivados."
+      },
+      "sidebar": {
+        "in_active": "Este módulo ainda não está ativo.",
+        "invalid_date": "Data inválida. Introduza uma data válida."
+      }
+    },
+    "quick_actions": {
+      "archive_module": "Arquivar módulo",
+      "archive_module_description": "Apenas os módulos concluídos ou cancelados\npodem ser arquivados.",
+      "delete_module": "Eliminar módulo"
+    },
+    "toast": {
+      "copy": {
+        "success": "Ligação do módulo copiada para a área de transferência"
+      },
+      "delete": {
+        "success": "Módulo eliminado com sucesso",
+        "error": "Falha ao eliminar o módulo"
+      }
+    }
+  },
+  "project_page": {
+    "empty_state": {
+      "general": {
+        "title": "Escreva uma nota, um documento ou uma base de conhecimento completa. Peça ao Galileo, o assistente de IA do Plane, que o ajude a começar",
+        "description": "As páginas são o espaço para registar ideias no Plane. Tome notas de reuniões, formate-as facilmente, incorpore itens de trabalho, organize-as com uma biblioteca de componentes e mantenha-as todas no contexto do seu projeto. Para despachar qualquer documento, invoque o Galileo, a IA do Plane, com um atalho ou com um clique num botão.",
+        "primary_button": {
+          "text": "Crie a sua primeira página"
+        }
+      },
+      "private": {
+        "title": "Ainda não há páginas privadas",
+        "description": "Guarde aqui as suas ideias privadas. Quando estiver pronto para partilhar, a equipa está à distância de um clique.",
+        "primary_button": {
+          "text": "Crie a sua primeira página"
+        }
+      },
+      "public": {
+        "title": "Ainda não há páginas públicas",
+        "description": "Veja aqui mesmo as páginas partilhadas com todos no seu projeto.",
+        "primary_button": {
+          "text": "Crie a sua primeira página"
+        }
+      },
+      "archived": {
+        "title": "Ainda não há páginas arquivadas",
+        "description": "Arquive as páginas que não estão no seu radar. Aceda-lhes aqui quando necessário."
+      }
+    }
+  },
+  "disabled_project": {
+    "empty_state": {
+      "inbox": {
+        "title": "O Intake não está ativado para o projeto.",
+        "description": "O Intake ajuda-o a gerir os pedidos recebidos no seu projeto e a adicioná-los como itens de trabalho no seu fluxo de trabalho. Ative o Intake nas definições do projeto para gerir os pedidos.",
+        "primary_button": {
+          "text": "Gerir funcionalidades"
+        }
+      },
+      "cycle": {
+        "title": "Os ciclos não estão ativados para este projeto.",
+        "description": "Divida o trabalho em blocos com duração definida, parta do prazo do seu projeto para trás para definir datas e faça progressos tangíveis como equipa. Ative a funcionalidade de ciclos no seu projeto para começar a utilizá-los.",
+        "primary_button": {
+          "text": "Gerir funcionalidades"
+        }
+      },
+      "module": {
+        "title": "Os módulos não estão ativados para o projeto.",
+        "description": "Os módulos são os blocos de construção do seu projeto. Ative os módulos nas definições do projeto para começar a utilizá-los.",
+        "primary_button": {
+          "text": "Gerir funcionalidades"
+        }
+      },
+      "page": {
+        "title": "As páginas não estão ativadas para o projeto.",
+        "description": "As páginas são os blocos de construção do seu projeto. Ative as páginas nas definições do projeto para começar a utilizá-las.",
+        "primary_button": {
+          "text": "Gerir funcionalidades"
+        }
+      },
+      "view": {
+        "title": "As vistas não estão ativadas para o projeto.",
+        "description": "As vistas são os blocos de construção do seu projeto. Ative as vistas nas definições do projeto para começar a utilizá-las.",
+        "primary_button": {
+          "text": "Gerir funcionalidades"
+        }
+      }
+    }
+  },
+  "project_modules": {
+    "status": {
+      "backlog": "Backlog",
+      "planned": "Planeado",
+      "in_progress": "Em Curso",
+      "paused": "Em pausa",
+      "completed": "Concluído",
+      "cancelled": "Cancelado"
+    },
+    "layout": {
+      "list": "Esquema de lista",
+      "board": "Esquema de galeria",
+      "timeline": "Esquema de cronograma"
+    },
+    "order_by": {
+      "name": "Nome",
+      "progress": "Progresso",
+      "issues": "Número de itens de trabalho",
+      "due_date": "Data limite",
+      "created_at": "Data de criação",
+      "manual": "Manual"
+    }
+  },
+  "project_members": {
+    "full_name": "Nome completo",
+    "display_name": "Nome a apresentar",
+    "email": "E-mail",
+    "joining_date": "Data de adesão",
+    "role": "Função"
+  },
+  "project": {
+    "members_import": {
+      "title": "Importar membros de CSV",
+      "description": "Carregue um CSV com as colunas: Email e Role (5=Convidado, 15=Membro, 20=Administrador). Os utilizadores já têm de ser membros do espaço de trabalho.",
+      "download_sample": "Transferir CSV de exemplo",
+      "dropzone": {
+        "active": "Largue o ficheiro CSV aqui",
+        "inactive": "Arraste e largue ou clique para carregar",
+        "file_type": "Apenas são suportados ficheiros .csv"
+      },
+      "buttons": {
+        "cancel": "Cancelar",
+        "import": "Importar",
+        "try_again": "Tentar novamente",
+        "close": "Fechar",
+        "done": "Concluído"
+      },
+      "progress": {
+        "uploading": "A carregar...",
+        "importing": "A importar..."
+      },
+      "summary": {
+        "title": {
+          "complete": "Importação concluída"
+        },
+        "message": {
+          "success": "Importação de {count} membro{plural} para o projeto concluída com sucesso.",
+          "no_imports": "Nenhum novo membro foi importado do ficheiro CSV."
+        },
+        "stats": {
+          "added": "Adicionados",
+          "reactivated": "Reativados",
+          "already_members": "Já são membros",
+          "skipped": "Ignorados"
+        },
+        "download_errors": "Transferir detalhes dos ignorados"
+      },
+      "toast": {
+        "invalid_file": {
+          "title": "Ficheiro inválido",
+          "message": "Apenas são suportados ficheiros CSV."
+        },
+        "import_failed": {
+          "title": "A importação falhou",
+          "message": "Algo correu mal."
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,87 @@
+{
+  "inbox_issue": {
+    "status": {
+      "pending": {
+        "title": "Pendente",
+        "description": "Pendente"
+      },
+      "declined": {
+        "title": "Recusado",
+        "description": "Recusado"
+      },
+      "snoozed": {
+        "title": "Adiado",
+        "description": "{days, plural, one{Falta # dia} many {Faltam # dias} other{Faltam # dias}}"
+      },
+      "accepted": {
+        "title": "Aceite",
+        "description": "Aceite"
+      },
+      "duplicate": {
+        "title": "Duplicado",
+        "description": "Duplicado"
+      }
+    },
+    "modals": {
+      "decline": {
+        "title": "Recusar item de trabalho",
+        "content": "Tem a certeza de que pretende recusar o item de trabalho {value}?"
+      },
+      "delete": {
+        "title": "Eliminar item de trabalho",
+        "content": "Tem a certeza de que pretende eliminar o item de trabalho {value}?",
+        "success": "Item de trabalho eliminado com sucesso"
+      }
+    },
+    "errors": {
+      "snooze_permission": "Apenas os administradores do projeto podem adiar/reativar itens de trabalho",
+      "accept_permission": "Apenas os administradores do projeto podem aceitar itens de trabalho",
+      "decline_permission": "Apenas os administradores do projeto podem recusar itens de trabalho"
+    },
+    "actions": {
+      "accept": "Aceitar",
+      "decline": "Recusar",
+      "snooze": "Adiar",
+      "unsnooze": "Reativar",
+      "copy": "Copiar ligação do item de trabalho",
+      "delete": "Eliminar",
+      "open": "Abrir item de trabalho",
+      "mark_as_duplicate": "Marcar como duplicado",
+      "move": "Mover {value} para os itens de trabalho do projeto"
+    },
+    "source": {
+      "in-app": "na aplicação"
+    },
+    "order_by": {
+      "created_at": "Criado em",
+      "updated_at": "Atualizado em",
+      "id": "ID"
+    },
+    "label": "Intake",
+    "page_label": "{workspace} - Intake",
+    "modal": {
+      "title": "Criar item de trabalho no Intake"
+    },
+    "tabs": {
+      "open": "Abertos",
+      "closed": "Fechados"
+    },
+    "empty_state": {
+      "sidebar_open_tab": {
+        "title": "Nenhum item de trabalho aberto",
+        "description": "Encontre aqui os itens de trabalho abertos. Crie um novo item de trabalho."
+      },
+      "sidebar_closed_tab": {
+        "title": "Nenhum item de trabalho fechado",
+        "description": "Todos os itens de trabalho, aceites ou recusados, podem ser encontrados aqui."
+      },
+      "sidebar_filter": {
+        "title": "Nenhum item de trabalho correspondente",
+        "description": "Nenhum item de trabalho corresponde ao filtro aplicado no Intake. Crie um novo item de trabalho."
+      },
+      "detail": {
+        "title": "Selecione um item de trabalho para ver os respetivos detalhes."
+      }
+    }
+  }
+}
